@@ -14,12 +14,12 @@ function Header(props) {
         <img
           className="logo"
           src={logo}
-          alt="csaw logo"
+          alt="logo"
           width="100"
           height="100"
         ></img>
         <div className="spacer" />
-        <h1 className="title">The Computer Science Academy of Westhill </h1>
+        <h1 className="title">The Computer Science Academy of Westhill</h1>
       </nav>
     </header>
   )
