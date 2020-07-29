@@ -1,0 +1,60 @@
+@import "./global.css";
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--VikingsPurple);
+  color: white;
+  /* text-align: center; */
+  height: var(--headerHeight);
+}
+
+.navbar {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  padding: 0 1rem;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 24px;
+  width: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hamburger:focus {
+  outline: none;
+}
+
+.line {
+  width: 30px;
+  height: 2px;
+  background: white;
+}
+
+.title {
+  padding: 0 0.5rem;
+  flex: 5;
+  font-size: 2rem;
+}
+
+.logo {
+  height: 100%;
+  margin-left: 0.25rem;
+  flex: 0.2;
+}
+
+.spacer {
+  flex: 1;
+}

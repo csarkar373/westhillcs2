@@ -1,0 +1,13 @@
+@import "./global.css";
+
+main {
+  margin-top: var(--headerHeight);
+  margin-left: calc(var(--sideBarWidth) + 15px);
+}
+
+.container {
+  height: 100%;
+  background: white;
+  width: 100%;
+  max-width: 2000px;
+}

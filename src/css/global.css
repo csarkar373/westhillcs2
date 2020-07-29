@@ -1,0 +1,30 @@
+:root {
+  --VikingsPurple: #4f2683;
+  --VikingsGold: #ffc62f;
+  --lightYellow: #ffffe6;
+  --lightPurple: #e7c8fa;
+  --sideBarWidth: 180px;
+  --headerHeight: 90px;
+  --tableRowHeight: 28px;
+}
+
+a {
+  color: var(--VikingsPurple);
+  /* font-weight: bold; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+  /* background: green; */
+}

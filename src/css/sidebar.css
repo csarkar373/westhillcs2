@@ -1,0 +1,38 @@
+@import "./global.css";
+
+.sidebar {
+  height: 100vh;
+  background: var(--lightYellow);
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 90px;
+  left: 0;
+  width: var(--sideBarWidth);
+}
+
+.sidebar ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar li {
+  margin: 0.5rem 0rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.sidebar a {
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.sidebar a:hover,
+a:active {
+  color: var(--VikingsPurple);
+  text-decoration: none;
+}
