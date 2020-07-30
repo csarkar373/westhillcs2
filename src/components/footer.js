@@ -3,7 +3,7 @@ import "../css/footer.css"
 
 function Footer(props) {
   return (
-    <footer>
+    <footer className={props.open}>
       A website for CSAW, the Computer Science Academy of{" "}
       <a href="https://www.stamfordpublicschools.org/westhill-high-school">
         Westhill High School

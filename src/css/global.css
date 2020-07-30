@@ -3,9 +3,10 @@
   --VikingsGold: #ffc62f;
   --lightYellow: #ffffe6;
   --lightPurple: #e7c8fa;
-  --sideBarWidth: 180px;
+  --sideBarWidth: 220px;
   --headerHeight: 90px;
   --tableRowHeight: 28px;
+  font-size: 1.2rem;
 }
 
 a {

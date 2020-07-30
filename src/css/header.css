@@ -9,6 +9,8 @@ header {
   color: white;
   /* text-align: center; */
   height: var(--headerHeight);
+  /* bug fix 7/29/20: responsive tables were overlapping header */
+  z-index: 100;
 }
 
 .navbar {
@@ -47,6 +49,12 @@ header {
   padding: 0 0.5rem;
   flex: 5;
   font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 1.2rem;
+  }
 }
 
 .logo {

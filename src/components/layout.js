@@ -7,7 +7,7 @@ import SideBar from "./sidebar"
 class Layout extends Component {
   constructor(props) {
     super(props)
-    this.state = { sidebarOpen: true }
+    this.state = { sidebarOpen: false }
   }
 
   handleHamburger = () => {
@@ -17,30 +17,14 @@ class Layout extends Component {
     })
   }
 
-  makeSidebar() {
-    console.log("make sidebar =", this.state.sidebarOpen)
-    let sb = []
-    if (this.state.sidebarOpen) {
-      sb = <SideBar />
-    }
-    return sb
-  }
-
-  makeMain() {
-    let cn = "closed"
-    if (this.state.sidebarOpen) {
-      cn = "open"
-    }
-    console.log("make main =", cn)
-    return <main className={cn}>{this.props.children}</main>
-  }
   render() {
+    const open = this.state.sidebarOpen
     return (
       <div className="container">
         <Header click={this.handleHamburger} />
-        {this.makeSidebar()}
-        {this.makeMain()}
-        <Footer />
+        {open ? <SideBar /> : ""}
+        <main className={open ? "open" : "closed"}>{this.props.children}</main>
+        <Footer open={open ? "sbopen" : "sbclosed"} />
       </div>
     )
   }
