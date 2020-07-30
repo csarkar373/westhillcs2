@@ -6,7 +6,7 @@ function Header(props) {
   return (
     <header>
       <nav className="navbar">
-        <button className="hamburger">
+        <button onClick={props.click} className="hamburger">
           <div className="line" />
           <div className="line" />
           <div className="line" />

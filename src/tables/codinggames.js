@@ -40,7 +40,7 @@ function codingGames() {
         <Tr className="tableRow">
           <Td className="item">
             <a href="https://sites.google.com/view/codinggames/home">
-              Coding Games
+              CS Coding Games
             </a>
           </Td>
           <Td className="item">
@@ -53,7 +53,7 @@ function codingGames() {
         <Tr className="tableRow">
           <Td className="item">
             <a href="https://sites.google.com/view/codinggames/home">
-              Coding Games
+              CS zCoding Games
             </a>
           </Td>
           <Td className="item">

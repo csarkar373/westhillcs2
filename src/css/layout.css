@@ -1,8 +1,13 @@
 @import "./global.css";
 
-main {
+.open {
   margin-top: var(--headerHeight);
   margin-left: calc(var(--sideBarWidth) + 15px);
+}
+
+.closed {
+  margin-top: var(--headerHeight);
+  margin-left: 15px;
 }
 
 .container {
