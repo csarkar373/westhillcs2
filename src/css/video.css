@@ -7,7 +7,6 @@
   align-items: center;
   justify-content: center;
   margin-top: 1em;
-  box-shadow: 10px 10px 10px 0px 0.55;
   z-index: 1;
 }
 
@@ -20,10 +19,10 @@
   font-weight: bold;
 }
 
-.video_card:hover,
+/* .video_card:hover,
 .video_card:active {
   background: var(--lightYellow);
-}
+} */
 
 .iframe_bigger {
   z-index: 500;

@@ -59,6 +59,7 @@ a:active {
   outline: none;
   background: var(--sidebar_background_color);
   margin: 15px 0px;
+  box-shadow: none;
 }
 
 .sidebar_item ul,
@@ -78,6 +79,7 @@ a:active {
   float: left;
   z-index: 0;
   margin: 0px 0em 0 0em;
+  box-shadow: none;
 }
 
 .sidebar_item input + .arrow {
@@ -131,6 +133,7 @@ label {
   width: 100px;
   height: 130px;
   margin: 0.5em 0.5em 0em 0.5em;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 h5 {

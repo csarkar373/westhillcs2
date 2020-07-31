@@ -35,3 +35,13 @@ h4 {
   margin-top: 1em;
   /* background: green; */
 }
+
+img,
+iframe {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+img:hover,
+iframe:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.45);
+}
