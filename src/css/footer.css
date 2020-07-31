@@ -5,10 +5,10 @@ footer {
   color: black;
 }
 
-.sbopen {
+.sb_open {
   margin-left: calc(var(--sideBarWidth) + 15px);
 }
 
-.sbclosed {
+.sb_closed {
   margin-left: 15px;
 }

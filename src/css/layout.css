@@ -1,11 +1,11 @@
 @import "./global.css";
 
-.open {
+.msb_open {
   margin-top: var(--headerHeight);
   margin-left: calc(var(--sideBarWidth) + 15px);
 }
 
-.closed {
+.msb_closed {
   margin-top: var(--headerHeight);
   margin-left: 15px;
 }

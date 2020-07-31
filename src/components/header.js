@@ -5,12 +5,13 @@ import logo from "../logo/CSAWlogo2.png"
 function Header(props) {
   return (
     <header>
-      <nav className="navbar">
+      <div className="header_container">
         <button onClick={props.click} className="hamburger">
           <div className="line" />
           <div className="line" />
           <div className="line" />
         </button>
+        <div className="spacer" />
         <img
           className="logo"
           src={logo}
@@ -18,9 +19,8 @@ function Header(props) {
           width="100"
           height="100"
         ></img>
-        <div className="spacer" />
         <h1 className="title">The Computer Science Academy of Westhill</h1>
-      </nav>
+      </div>
     </header>
   )
 }

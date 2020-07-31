@@ -13,13 +13,14 @@ header {
   z-index: 100;
 }
 
-.navbar {
+.header_container {
   display: flex;
   height: 100%;
   flex-direction: row;
   align-items: center;
   justify-content: left;
   padding: 0 1rem;
+  margin-left: 5px;
 }
 
 .hamburger {
@@ -46,12 +47,11 @@ header {
 }
 
 .title {
-  padding: 0 0.5rem;
-  flex: 5;
+  flex: 4;
   font-size: 2rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .title {
     font-size: 1.2rem;
   }
@@ -59,8 +59,8 @@ header {
 
 .logo {
   height: 100%;
-  margin-left: 0.25rem;
-  flex: 0.2;
+
+  flex: 0.25;
 }
 
 .spacer {

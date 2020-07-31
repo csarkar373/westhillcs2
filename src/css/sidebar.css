@@ -2,30 +2,19 @@
 
 .sidebar {
   height: 100vh;
+  margin: 0;
+  padding: 0;
   background: var(--lightYellow);
   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 90px;
   left: 0;
   width: var(--sideBarWidth);
-}
-
-.sidebar ul {
-  height: 100%;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-}
-
-.sidebar li {
-  margin: 0.5rem 0rem;
-  color: black;
-  font-weight: bold;
-  font-size: 1.3rem;
+  overflow-x: hidden;
 }
 
 .sidebar a {
-  color: black;
+  color: var(--VikingsPurple);
   font-weight: bold;
   font-size: 1rem;
   text-decoration: underline;
@@ -33,6 +22,88 @@
 
 .sidebar a:hover,
 a:active {
-  color: var(--VikingsPurple);
+  color: var(--VikingsGold);
   text-decoration: none;
+}
+
+.sidebar_header {
+  display: flex;
+  flex-direction: row;
+  margin: 0 1rem;
+}
+
+.sidebar_spacer {
+  flex: 1;
+}
+
+.closingx {
+  height: 20px;
+  width: 20px;
+  border: none;
+  /* prevent border showing when clicked */
+  outline: none;
+  background: var(--lightYellow);
+  margin: 15px 0px;
+}
+
+.sidebar_item ul,
+.nav input[type="checkbox"] {
+  display: none;
+}
+
+#menu:checked ~ .multi_level,
+.sidebar_item input:checked ~ ul {
+  display: block;
+}
+
+.arrow {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  float: left;
+  z-index: 0;
+  margin: 0px 0em 0 0em;
+}
+
+.sidebar_item input + .arrow {
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.sidebar_item input:checked + .arrow {
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
+
+label:hover {
+  cursor: pointer;
+  color: var(--VikingsGold);
+}
+
+label {
+  width: 100%;
+  display: block;
+  z-index: 3;
+  position: relative;
+}
+
+.sidebar ul,
+.sidebar li,
+label {
+  margin: 0;
+  padding: 0.25em 1em;
+  list-style: none;
+  text-decoration: none;
+  color: var(--VikingsPurple);
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.sidebar_item ul {
+  padding: 0 0.25em;
+}
+
+.sidebar_link_container {
+  padding: 0.25em 1.3em;
 }
