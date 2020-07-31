@@ -14,5 +14,5 @@
   height: 100%;
   background: white;
   width: 100%;
-  max-width: 1500px;
+  max-width: var(--maxWidth);
 }

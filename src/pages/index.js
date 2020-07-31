@@ -19,7 +19,23 @@ function Home(props) {
     <div>
       <Layout>
         <h1>Introducing the Computer Science Academy of Westhill</h1>
-        <Video src="xrpJJYB8KSk" />
+        <Content>
+          <div className="grid">
+            <div className="video_container">
+              <Video width="300" height="200" src="tt4JcW16KIE"></Video>
+              <h4>Girls Who Code Club</h4>
+            </div>
+            <div className="video_container">
+              <Video width="350" height="200" src="xrpJJYB8KSk"></Video>
+              <h4>CSAW Intro Video</h4>
+            </div>
+
+            <div className="video_container">
+              <Video width="300" height="200" src="0VkQ6s1Iuk0"></Video>
+              <h4>Examples of Student Work</h4>
+            </div>
+          </div>
+        </Content>
         <Section title="Click on a Course for More Info">
           <Content>{/* <Courses /> */}</Content>
         </Section>
@@ -60,11 +76,6 @@ function Home(props) {
             <CSAscores />
           </Section>
         </Content>
-        <Section title="Look What Our Students are Building">
-          <Content>
-            <Video src="0VkQ6s1Iuk0"></Video>
-          </Content>
-        </Section>
       </Layout>
     </div>
   )
