@@ -11,12 +11,14 @@
 
 .tableHeaderRow {
   background: var(--VikingsGold);
+  /* setting the height explicitly ruins the responsive nature */
   /* height: var(--tableRowHeight); */
 }
 
 .tableRow {
   color: black;
-  height: var(--tableRowHeight);
+  /* setting the height explicitly ruins the responsive nature */
+  /* height: var(--tableRowHeight); */
 }
 
 .tableRow:hover {
