@@ -13,11 +13,15 @@
   background: var(--VikingsGold);
   /* height: var(--tableRowHeight); */
 }
-/* 
+
 .tableRow {
   color: black;
   height: var(--tableRowHeight);
-} */
+}
+
+.tableRow:hover {
+  background: var(--lightYellow);
+}
 
 .item {
   padding: 5px 10px;

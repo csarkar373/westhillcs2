@@ -1,7 +1,37 @@
 @import "./global.css";
 
-.video {
+.video_card {
   display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin-top: 1em;
+  z-index: 1;
+}
+
+.video_button {
+  margin: 0.3em 0em 0em 0em;
+  background: var(--lightYellow);
+}
+
+.video_button:hover {
+  font-weight: bold;
+}
+
+.video_card:hover,
+.video_card:active {
+  background: var(--lightYellow);
+}
+
+.iframe_bigger {
+  z-index: 500;
+}
+
+.iframe_smaller {
+  z-index: 1;
+}
+
+.caption {
+  margin: 0.3em 0 0 0;
 }

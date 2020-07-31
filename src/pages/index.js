@@ -20,19 +20,31 @@ function Home(props) {
       <Layout>
         <h1>Introducing the Computer Science Academy of Westhill</h1>
         <Content>
-          <div className="grid">
+          <div className="flex_container">
             <div className="video_container">
-              <Video width="300" height="200" src="tt4JcW16KIE"></Video>
-              <h4>Girls Who Code Club</h4>
+              <Video
+                width="300"
+                height="200"
+                src="tt4JcW16KIE"
+                caption="Girls Who Code Club"
+              ></Video>
             </div>
             <div className="video_container">
-              <Video width="350" height="200" src="xrpJJYB8KSk"></Video>
-              <h4>CSAW Intro Video</h4>
+              <Video
+                width="350"
+                height="200"
+                src="xrpJJYB8KSk"
+                caption="CSAW Intro Video"
+              ></Video>
             </div>
 
             <div className="video_container">
-              <Video width="300" height="200" src="0VkQ6s1Iuk0"></Video>
-              <h4>Examples of Student Work</h4>
+              <Video
+                width="300"
+                height="200"
+                src="0VkQ6s1Iuk0"
+                caption="Examples of Student Work"
+              ></Video>
             </div>
           </div>
         </Content>
@@ -51,10 +63,13 @@ function Home(props) {
         </Section>
         <Section title="Westhill Girls Go on to Major in Computer Science in College">
           <Content>
-            <div className="grid">
+            <div className="flex_container">
               <div className="video_container">
-                <Video width="200" src="vanN1tG49Xg"></Video>
-                <h4>Alumni Promote CS</h4>
+                <Video
+                  width="200"
+                  src="vanN1tG49Xg"
+                  caption="Alumni Promote CS"
+                ></Video>
               </div>
               <div className="img_container">
                 <img src={cyber} alt="award" width="350" />
