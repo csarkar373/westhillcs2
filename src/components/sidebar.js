@@ -3,12 +3,17 @@ import { Link } from "gatsby"
 import "../css/sidebar.css"
 import closingx from "../img/closingx.png"
 import arrow from "../img/arrow.png"
+import rajkumar from "../img/rajkumar.jpg"
+import tennent from "../img/tennent.jpg"
+import kolb from "../img/kolb.jpg"
+import temelini from "../img/temelini.jpg"
+import sarkar from "../img/sarkar2.jpg"
 
 function sideBar(props) {
   return (
     <nav className="sidebar">
       <div className="sidebar_header">
-        <h2>Menu</h2>
+        <h3 className="sidebar_title">Menu</h3>
         <div className="sidebar_spacer" />
         <button className="closingx" onClick={props.click}>
           <img className="closingx" src={closingx} alt="0"></img>
@@ -16,6 +21,7 @@ function sideBar(props) {
       </div>
       <div className="nav">
         <div className="multi_level">
+          <div className="sidebar_tab">Academy Info</div>
           <div className="sidebar_link_container">
             <Link to="/">Home</Link>
           </div>
@@ -46,7 +52,7 @@ function sideBar(props) {
                 <a href="#">Forms</a>
               </li>
               <li>
-                <a href="#">FAQ</a>
+                <Link to="/FAQ">FAQ</Link>
               </li>
             </ul>
           </div>
@@ -102,6 +108,29 @@ function sideBar(props) {
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+      <div className="sidebar_tab">Teachers</div>
+      <div className="teacher_box">
+        <div>
+          <img src={tennent} alt="" className="teacher" />
+          <h5>Ms. Tennent</h5>
+        </div>
+        <div>
+          <img src={kolb} alt="" className="teacher" />
+          <h5>Mr. Kolb</h5>
+        </div>
+        <div>
+          <img src={temelini} alt="" className="teacher" />
+          <h5>Mr. Temelini</h5>
+        </div>
+        <div>
+          <img src={rajkumar} alt="" className="teacher" />
+          <h5>Mr. Rajkumar</h5>
+        </div>
+        <div>
+          <img src={sarkar} alt="" className="teacher" />
+          <h5>Mr. Sarkar</h5>
         </div>
       </div>
     </nav>

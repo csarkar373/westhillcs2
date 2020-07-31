@@ -4,7 +4,7 @@
   height: 100vh;
   margin: 0;
   padding: 0;
-  background: var(--lightYellow);
+  background: var(--sidebar_background_color);
   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 90px;
@@ -13,11 +13,26 @@
   overflow-x: hidden;
 }
 
+.sidebar_tab {
+  display: flex;
+  width: 100%;
+  height: 1.5em;
+  background: var(--VikingsGold);
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
 .sidebar a {
   color: var(--VikingsPurple);
   font-weight: bold;
   font-size: 1rem;
   text-decoration: underline;
+}
+
+.sidebar_title {
+  background: var(--sidebar_background_color);
+  width: 100%;
 }
 
 .sidebar a:hover,
@@ -42,7 +57,7 @@ a:active {
   border: none;
   /* prevent border showing when clicked */
   outline: none;
-  background: var(--lightYellow);
+  background: var(--sidebar_background_color);
   margin: 15px 0px;
 }
 
@@ -106,4 +121,22 @@ label {
 
 .sidebar_link_container {
   padding: 0.25em 1.3em;
+}
+
+.teacher_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.teacher {
+  width: 100px;
+  height: 130px;
+  margin: 0.5em 0.5em 0em 0.5em;
+}
+
+h5 {
+  margin: 0 0 0 0;
+}
+
+h3 {
+  margin: 1.2em 0 0.5em 0;
 }

@@ -3,8 +3,9 @@
   --VikingsGold: #ffc62f;
   --lightYellow: #ffffe6;
   --lightPurple: #e7c8fa;
+  --sidebar_background_color: white;
   --sideBarWidth: 270px;
-  --headerHeight: 90px;
+  --headerHeight: 10vh;
   --tableRowHeight: 28px;
   font-size: 1.2rem;
 }

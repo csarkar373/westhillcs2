@@ -5,11 +5,14 @@ import Layout from "../components/layout"
 import Section from "../components/section"
 import Video from "../components/video"
 import Content from "../components/content"
+import Courses from "../components/courses"
+
 import CodingGames from "../tables/codinggames"
 import CSPscores from "../tables/cspscores"
 import CSAscores from "../tables/csascores"
 
 import crevecoeur from "../img/crevecoeur.jpg"
+import cyber from "../img/cyber.jpg"
 
 function Home(props) {
   return (
@@ -18,7 +21,7 @@ function Home(props) {
         <h1>Introducing the Computer Science Academy of Westhill</h1>
         <Video src="xrpJJYB8KSk" />
         <Section title="Click on a Course for More Info">
-          <Content>Course info goes here.</Content>
+          <Content>{/* <Courses /> */}</Content>
         </Section>
         <Section title="Try a Little Programming">
           <Content>
@@ -33,11 +36,16 @@ function Home(props) {
         <Section title="Westhill Girls Go on to Major in Computer Science in College">
           <Content>
             <div className="grid">
-              <div>
-                <Video width="300" src="vanN1tG49Xg"></Video>
+              <div className="video_container">
+                <Video width="200" src="vanN1tG49Xg"></Video>
                 <h4>Alumni Promote CS</h4>
               </div>
-              <div className="img">
+              <div className="img_container">
+                <img src={cyber} alt="award" width="350" />
+                <h4>Cyber Team (State Bronze Medal)</h4>
+              </div>
+
+              <div className="img_container">
                 <img src={crevecoeur} alt="award" width="235" />
                 <h4>NCWIT Award Winner</h4>
               </div>
