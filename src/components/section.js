@@ -3,7 +3,7 @@ import "../css/section.css"
 
 function Section(props) {
   return (
-    <div>
+    <div className="section">
       <h3>{props.title}</h3>
       {props.children}
     </div>

@@ -9,7 +9,7 @@ function FAQ(props) {
       <h1>FAQ</h1>
       <Layout title="About the Academy">
         <Section title="Frequently Asked Questions">
-          <Content>FAQ content goes here.</Content>
+          FAQ content goes here.
         </Section>
       </Layout>
     </div>

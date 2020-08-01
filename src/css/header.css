@@ -5,7 +5,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  max-width: var(--maxWidth);
+  max-width: calc(var(--maxWidth) + 10px);
   background: var(--VikingsPurple);
   color: white;
   /* text-align: center; */

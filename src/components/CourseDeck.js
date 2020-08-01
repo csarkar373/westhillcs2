@@ -20,7 +20,7 @@ function CourseDeck() {
     <div className="courses">
       <Card
         pic={csp}
-        link="./Construction"
+        link="./CSP"
         title="AP CSP"
         textbook={[
           textbookIcon,
@@ -31,7 +31,7 @@ function CourseDeck() {
       />
       <Card
         pic={python}
-        link="./Construction"
+        link="./Python"
         title="Python A/B"
         textbook={[
           textbookIcon,
@@ -41,7 +41,7 @@ function CourseDeck() {
       />
       <Card
         pic={intro}
-        link="./Construction"
+        link="./Intro"
         title="Intro CS"
         textbook={[
           textbookIcon,
@@ -64,32 +64,40 @@ function CourseDeck() {
 
       <Card
         pic={csab}
-        link="./Construction"
+        link="./CSAB"
         title="CS AB"
-        textbook={[textbookIcon, "/Construction", "Course Textbook"]}
+        textbook={[
+          textbookIcon,
+          "https://csab373.appspot.com/first/course",
+          "Course Textbook",
+        ]}
         summer={[sun, "/Construction", "Summer Work"]}
       />
       <Card
         pic={cyber}
-        link="./Construction"
+        link="/Cyber"
         title="Cyber Security"
-        // textbook={[textbookIcon, "/Construction", "Course Textbook"]}
+        textbook={[
+          textbookIcon,
+          "https://csab373.appspot.com/cyber/course",
+          "Course Textbook",
+        ]}
       />
       <Card
         pic={web}
-        link="./Construction"
+        link="./Web"
         title="Web Design"
         // textbook={[textbookIcon, "/Construction", "Course Textbook"]}
       />
       <Card
         pic={game}
-        link="./Construction"
+        link="./Game"
         title="Game Design"
         // textbook={[textbookIcon, "/Construction", "Course Textbook"]}
       />
       <Card
         pic={robotics}
-        link="./Construction"
+        link="./Robotics"
         title="Robotics"
         // textbook={[textbookIcon, "/Construction", "Course Textbook"]}
       />

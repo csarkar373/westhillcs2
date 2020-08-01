@@ -7,7 +7,8 @@ import rajkumar from "../img/rajkumar.jpg"
 import tennent from "../img/tennent.jpg"
 import kolb from "../img/kolb.jpg"
 import temelini from "../img/temelini.jpg"
-import sarkar from "../img/sarkar2.jpg"
+import sarkar from "../img/sarkar3.jpg"
+import kurtz from "../img/kurtz.jpg"
 import sun from "../logo/sun.png"
 
 function sideBar(props) {
@@ -131,6 +132,10 @@ function sideBar(props) {
         <div>
           <img src={rajkumar} alt="" className="teacher" />
           <h5>Mr. Rajkumar</h5>
+        </div>
+        <div>
+          <img src={kurtz} alt="" className="teacher" />
+          <h5>Ms. Kurtz</h5>
         </div>
         <div>
           <img src={sarkar} alt="" className="teacher" />
