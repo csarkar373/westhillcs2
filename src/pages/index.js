@@ -49,7 +49,9 @@ function Home(props) {
           </div>
         </Content>
         <Section title="Click on a Course for More Info">
-          <Content>{<Courses />}</Content>
+          <Content>
+            <Courses />
+          </Content>
         </Section>
         <Section title="Try a Little Programming">
           <Content>
