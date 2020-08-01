@@ -60,10 +60,19 @@ header {
 
 .logo {
   height: 100%;
-
+  box-shadow: none;
   flex: 0.25;
+}
+
+.logo:hover {
+  box-shadow: none;
 }
 
 .spacer {
   flex: 1;
+}
+
+img,
+img:hover {
+  box-shadow: none;
 }

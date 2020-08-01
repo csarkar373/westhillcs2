@@ -1,23 +1,80 @@
-// import React from "react"
-// import "bootstrap/dist/css/bootstrap.css"
-// import sarkar from "../img/sarkar2.jpg"
+import React from "react"
+import "../css/Courses.css"
+import Card from "./Card.js"
+import textbook from "../logo/book1.png"
+import labbook from "../logo/book2.png"
+import csa from "../logo/bluejLogo.png"
+import csp from "../logo/ai-bee-logo.png"
+import python from "../logo/pythonLogo.png"
+import csab from "../logo/tree2.png"
+import intro from "../logo/scratchLogo.png"
+import cyber from "../logo/cyberLogo.png"
+import robotics from "../logo/robotics4.png"
+import game from "../logo/gameLogo.png"
+import web from "../logo/web.png"
 
-// function Courses(props) {
-//   return (
-//     <div className="card text-center">
-//       <div className="overflow">
-//         <img src={sarkar} alt="course logo" className="CSA" />
-//       </div>
-//       <div className="card-body text-dark">
-//         <h4 className="card-title">Card Title</h4>
-//         <p className="card-text text-secondary">
-//           Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, odit
-//           veniam. Vel dignissimos voluptatem numquam hic saepe distinctio quasi
-//           illo?
-//         </p>
-//         <a href="#" className="btn btn-outline-success"></a>
-//       </div>
-//     </div>
-//   )
-// }
-// export default Courses
+function Courses() {
+  const data = [
+    { icon: textbook, link: "./Construction" },
+    { icon: labbook, link: "./Construction" },
+  ]
+  return (
+    <div className="courses">
+      <Card
+        pic={csa}
+        link="./Construction"
+        title="AP CSA"
+        textbook_link="./Construction"
+      />
+      <Card
+        pic={csp}
+        link="./Construction"
+        title="AP CSP"
+        textbook_link="https://course.mobilecsp.org/mobilecsp"
+      />
+      <Card
+        pic={python}
+        link="./Construction"
+        title="Python A/B"
+        textbook_link="https://academy.cs.cmu.edu/"
+      />
+      <Card
+        pic={intro}
+        link="./Construction"
+        title="Intro CS"
+        textbook_link="./Construction"
+      />
+      <Card
+        pic={csab}
+        link="./Construction"
+        title="CS AB"
+        textbook_link="./Construction"
+      />
+      <Card
+        pic={cyber}
+        link="./Construction"
+        title="Cyber Security"
+        textbook_link="./Construction"
+      />
+      <Card
+        pic={web}
+        link="./Construction"
+        title="Web Design"
+        textbook_link="./Construction"
+      />
+      <Card
+        pic={game}
+        link="./Construction"
+        title="Game Design"
+        textbook_link="./Construction"
+      />
+      <Card
+        pic={robotics}
+        link="./Construction"
+        title="Robotics"
+        textbook_link="./Construction"
+      />
+    </div>
+  )
+}
+export default Courses

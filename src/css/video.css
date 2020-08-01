@@ -12,7 +12,8 @@
 
 .video_button {
   margin: 0.3em 0em 0em 0em;
-  background: var(--lightYellow);
+  background: white; /* var(--lightYellow); */
+  border: solid var(--VikingsGold);
 }
 
 .video_button:hover {

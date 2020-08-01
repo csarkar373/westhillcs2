@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import "../css/header.css"
 import logo from "../logo/CSAWlogo2.png"
 
@@ -12,13 +13,15 @@ function Header(props) {
           <div className="line" />
         </button>
         <div className="spacer" />
-        <img
-          className="logo"
-          src={logo}
-          alt="logo"
-          width="100"
-          height="100"
-        ></img>
+        <Link to="/">
+          <img
+            className="logo"
+            src={logo}
+            alt="logo"
+            width="100"
+            height="100"
+          ></img>
+        </Link>
         <h1 className="title">The Computer Science Academy of Westhill</h1>
       </div>
     </header>

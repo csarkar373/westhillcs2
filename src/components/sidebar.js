@@ -8,6 +8,7 @@ import tennent from "../img/tennent.jpg"
 import kolb from "../img/kolb.jpg"
 import temelini from "../img/temelini.jpg"
 import sarkar from "../img/sarkar2.jpg"
+import sun from "../logo/sun.png"
 
 function sideBar(props) {
   return (
@@ -26,7 +27,10 @@ function sideBar(props) {
             <Link to="/">Home</Link>
           </div>
           <div className="sidebar_link_container">
-            <Link to="/Summer">Summer Assignments</Link>
+            <Link to="/Construction">
+              Summer Assignments
+              <img src={sun} height="25" width="25" alt="sun" />
+            </Link>
           </div>
           <div className="sidebar_link_container">
             <a href="https://sites.google.com/view/codinggames/home">Games</a>
