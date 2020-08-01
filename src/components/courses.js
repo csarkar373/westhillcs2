@@ -12,6 +12,8 @@ import cyber from "../logo/cyberLogo.png"
 import robotics from "../logo/robotics4.png"
 import game from "../logo/gameLogo.png"
 import web from "../logo/web.png"
+import awesome from "../logo/CSAwesomeLogoSmall.png"
+import sun from "../logo/sun.png"
 
 function Courses() {
   const data = [
@@ -25,6 +27,12 @@ function Courses() {
         link="./Construction"
         title="AP CSA"
         textbook_link="./Construction"
+        secondBook={[
+          awesome,
+          "https://runestone.academy/runestone/books/published/csawesome/index.html",
+          "CSAwesome",
+        ]}
+        summer={[sun, "/Construction", "Summer Work"]}
       />
       <Card
         pic={csp}
@@ -49,6 +57,7 @@ function Courses() {
         link="./Construction"
         title="CS AB"
         textbook_link="./Construction"
+        summer={[sun, "/Construction", "Summer Work"]}
       />
       <Card
         pic={cyber}

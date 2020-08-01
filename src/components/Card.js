@@ -8,17 +8,20 @@ class Card extends Component {
     super(props)
   }
 
-  makeCard() {
-    const data = []
-    const cardStuff = []
-    for (let i = 0; i < data.length; ++i) {
-      cardStuff.push(
-        <img src={data[i].icon} alt="icon">
-          <Link to={data[i].link} />
-        </img>
+  addItems(item) {
+    if (item) {
+      const [icon, link, description] = [...item]
+      return (
+        <a className="textbook" href={link}>
+          <div className="textbook_container">
+            <img src={icon} height="25" width="25" alt="book2"></img>
+            <p className="textbook_hover">{description}</p>
+          </div>
+        </a>
       )
+    } else {
+      return []
     }
-    return cardStuff
   }
   render() {
     const { pic, link, title, textbook_link } = { ...this.props }
@@ -29,12 +32,16 @@ class Card extends Component {
         </a>
         <a href={link}>{title}</a>
 
-        <a className="textbook" href={textbook_link}>
-          <div className="textbook_container">
-            <img src={book} height="25" width="25" alt="book"></img>
-            <p className="textbook_hover">textbook</p>
-          </div>
-        </a>
+        <div className="textbook_box">
+          <a className="textbook" href={textbook_link}>
+            <div className="textbook_container">
+              <img src={book} height="25" width="25" alt="book"></img>
+              <p className="textbook_hover center">Course Textbook</p>
+            </div>
+          </a>
+          {this.addItems(this.props.secondBook)}
+          {this.addItems(this.props.summer)}
+        </div>
       </div>
     )
   }

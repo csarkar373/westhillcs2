@@ -5,8 +5,8 @@
   border: solid var(--VikingsGold);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
   background: white; /*var(--lightYellow); */
-  height: 200px;
-  width: 200px;
+  height: 210px;
+  width: 210px;
   margin: 0.25em 0.25em 0.25em 0.25em;
   align-items: center;
   justify-content: center;
@@ -30,6 +30,7 @@
   flex-direction: column;
   flex-basis: 1;
   align-items: center;
+  text-align: center;
 }
 
 .textbook_hover {
@@ -43,4 +44,11 @@
 
 p {
   margin: 0 0 0 0;
+}
+
+.textbook_box {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  flex-basis: 1;
 }
