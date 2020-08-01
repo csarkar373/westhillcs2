@@ -16,10 +16,6 @@ import awesome from "../logo/CSAwesomeLogoSmall.png"
 import sun from "../logo/sun.png"
 
 function Courses() {
-  const data = [
-    { icon: textbook, link: "./Construction" },
-    { icon: labbook, link: "./Construction" },
-  ]
   return (
     <div className="courses">
       <Card
