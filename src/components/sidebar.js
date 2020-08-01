@@ -28,7 +28,7 @@ function sideBar(props) {
             <Link to="/">Home</Link>
           </div>
           <div className="sidebar_link_container">
-            <Link to="/Construction">
+            <Link to="#">
               Summer Assignments
               <img src={sun} height="25" width="25" alt="sun" />
             </Link>
