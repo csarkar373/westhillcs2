@@ -51,7 +51,7 @@ function CourseDeck() {
       />
       <Card
         pic={csa}
-        link="#"
+        link="/CSA"
         title="AP CSA"
         textbook={[textbookIcon, "#", "Lab Textbook"]}
         secondBook={[

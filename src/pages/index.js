@@ -46,6 +46,11 @@ function Home(props) {
             ></Video>
           </div>
         </div>
+        <br />
+        <p>
+          Para ver una versión en español del video de introducción, haga clic{" "}
+          <a href="https://youtu.be/JChxWMHkeO8">aquí</a>.
+        </p>
 
         <Section title="Click on a Course for More Info">
           <CardDeck />

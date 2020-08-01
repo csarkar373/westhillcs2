@@ -12,7 +12,7 @@ import ai from "../logo/ai-bee-logo.png"
 import textbookIcon from "../logo/book1.png"
 import brochureEnglish from "../img/CSPEnglish.jpg"
 import brochureSpanish from "../img/CSPSpanish.jpg"
-import summary from "../img/examsummary.png"
+import summary from "../img/cspsummary.jpg"
 
 function CSP(props) {
   return (
@@ -41,10 +41,10 @@ function CSP(props) {
 
         <Section title="Course Description">
           <p>
-            The 2017-2018 academic year will mark the third year of Westhill's
-            Computer Science Principles course. Unlike other AP courses, AP CSP
-            can be taught using a variety of curricula. At our school, we have
-            chosen the Mobile CSP (cell-phoned-based) platform for teaching this
+            Computer Science Principles has been offered at Westhill since the
+            2015-2016 academic year. Unlike other AP courses, AP CSP can be
+            taught using a variety of curricula. At our school, we have chosen
+            the Mobile CSP (cell-phone-based) platform for teaching this
             important course which is designed to be a student's first
             introduction to computer science. For more information about the
             curriculum for our Mobile CSP course, click on the image on the left
