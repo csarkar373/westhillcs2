@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Section from "../components/section"
 import Video from "../components/video"
 import Content from "../components/content"
-// import Courses from "../components/Courses"
+import CardDeck from "../components/CourseDeck"
 
 import CodingGames from "../tables/codinggames"
 import CSPscores from "../tables/cspscores"
@@ -49,7 +49,9 @@ function Home(props) {
           </div>
         </Content>
         <Section title="Click on a Course for More Info">
-          <Content>{/* <Courses /> */}</Content>
+          <Content>
+            <CardDeck />
+          </Content>
         </Section>
         <Section title="Try a Little Programming">
           <Content>

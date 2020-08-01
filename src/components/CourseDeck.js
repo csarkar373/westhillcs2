@@ -1,10 +1,10 @@
 import React from "react"
-import "../css/courses.css"
+import "../css/CourseDeck.css"
 import Card from "./Card.js"
-import textbook from "../logo/book1.png"
-import labbook from "../logo/book2.png"
+import textbookIcon from "../logo/book1.png"
 import csa from "../logo/bluejLogo.png"
-import csp from "../logo/ai-bee-logo.png"
+import csp from "../logo/mobileCSPoriginal.png"
+import ai from "../logo/ai-bee-logo.png"
 import python from "../logo/pythonLogo.png"
 import csab from "../logo/tree2.png"
 import intro from "../logo/scratchLogo.png"
@@ -19,10 +19,41 @@ function CourseDeck() {
   return (
     <div className="courses">
       <Card
+        pic={csp}
+        link="./Construction"
+        title="AP CSP"
+        textbook={[
+          textbookIcon,
+          "https://course.mobilecsp.org/mobilecsp",
+          "Course Textbook",
+        ]}
+        secondBook={[ai, "http://ai2.appinventor.mit.edu/", "App Inventor"]}
+      />
+      <Card
+        pic={python}
+        link="./Construction"
+        title="Python A/B"
+        textbook={[
+          textbookIcon,
+          "https://academy.cs.cmu.edu/",
+          "Course Textbook",
+        ]}
+      />
+      <Card
+        pic={intro}
+        link="./Construction"
+        title="Intro CS"
+        textbook={[
+          textbookIcon,
+          "https://csab373.appspot.com/introCS/course",
+          "Course Textbook",
+        ]}
+      />
+      <Card
         pic={csa}
         link="./Construction"
         title="AP CSA"
-        textbook_link="./Construction"
+        textbook={[textbookIcon, "./Construction", "Lab Textbook"]}
         secondBook={[
           awesome,
           "https://runestone.academy/runestone/books/published/csawesome/index.html",
@@ -30,54 +61,37 @@ function CourseDeck() {
         ]}
         summer={[sun, "/Construction", "Summer Work"]}
       />
-      <Card
-        pic={csp}
-        link="./Construction"
-        title="AP CSP"
-        textbook_link="https://course.mobilecsp.org/mobilecsp"
-      />
-      <Card
-        pic={python}
-        link="./Construction"
-        title="Python A/B"
-        textbook_link="https://academy.cs.cmu.edu/"
-      />
-      <Card
-        pic={intro}
-        link="./Construction"
-        title="Intro CS"
-        textbook_link="./Construction"
-      />
+
       <Card
         pic={csab}
         link="./Construction"
         title="CS AB"
-        textbook_link="./Construction"
+        textbook={[textbookIcon, "/Construction", "Course Textbook"]}
         summer={[sun, "/Construction", "Summer Work"]}
       />
       <Card
         pic={cyber}
         link="./Construction"
         title="Cyber Security"
-        textbook_link="./Construction"
+        // textbook={[textbookIcon, "/Construction", "Course Textbook"]}
       />
       <Card
         pic={web}
         link="./Construction"
         title="Web Design"
-        textbook_link="./Construction"
+        // textbook={[textbookIcon, "/Construction", "Course Textbook"]}
       />
       <Card
         pic={game}
         link="./Construction"
         title="Game Design"
-        textbook_link="./Construction"
+        // textbook={[textbookIcon, "/Construction", "Course Textbook"]}
       />
       <Card
         pic={robotics}
         link="./Construction"
         title="Robotics"
-        textbook_link="./Construction"
+        // textbook={[textbookIcon, "/Construction", "Course Textbook"]}
       />
     </div>
   )

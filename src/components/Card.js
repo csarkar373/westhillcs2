@@ -33,12 +33,7 @@ class Card extends Component {
         <a href={link}>{title}</a>
 
         <div className="textbook_box">
-          <a className="textbook" href={textbook_link}>
-            <div className="textbook_container">
-              <img src={book} height="25" width="25" alt="book"></img>
-              <p className="textbook_hover center">Course Textbook</p>
-            </div>
-          </a>
+          {this.addItems(this.props.textbook)}
           {this.addItems(this.props.secondBook)}
           {this.addItems(this.props.summer)}
         </div>
