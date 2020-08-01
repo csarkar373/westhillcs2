@@ -30,7 +30,7 @@ function sideBar(props) {
           <div className="sidebar_link_container">
             <Link to="#">
               Summer Assignments
-              <img src={sun} height="25" width="25" alt="sun" />
+              <img className="sun" src={sun} height="25" width="25" alt="sun" />
             </Link>
           </div>
           <div className="sidebar_link_container">

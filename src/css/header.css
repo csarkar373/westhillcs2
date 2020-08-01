@@ -71,8 +71,3 @@ header {
 .spacer {
   flex: 1;
 }
-
-img,
-img:hover {
-  box-shadow: none;
-}
