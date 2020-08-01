@@ -1,5 +1,5 @@
 import React from "react"
-import "../css/Courses.css"
+import "../css/courses.css"
 import Card from "./Card.js"
 import textbook from "../logo/book1.png"
 import labbook from "../logo/book2.png"
