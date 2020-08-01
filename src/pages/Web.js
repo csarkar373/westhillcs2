@@ -18,7 +18,7 @@ function Web(props) {
               pic={web}
               link="./Web"
               title="Web Design"
-              // textbook={[textbookIcon, "/Construction", "Course Textbook"]}
+              // textbook={[textbookIcon, "#", "Course Textbook"]}
             />
           </div>
         </Section>

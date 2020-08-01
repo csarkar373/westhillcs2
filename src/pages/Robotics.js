@@ -22,7 +22,7 @@ function Robotics(props) {
               pic={robotics}
               link="./Robotics"
               title="Robotics"
-              // textbook={[textbookIcon, "/Construction", "Course Textbook"]}
+              // textbook={[textbookIcon, "#", "Course Textbook"]}
             />
           </div>
         </Section>

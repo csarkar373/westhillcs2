@@ -51,15 +51,15 @@ function CourseDeck() {
       />
       <Card
         pic={csa}
-        link="./Construction"
+        link="#"
         title="AP CSA"
-        textbook={[textbookIcon, "./Construction", "Lab Textbook"]}
+        textbook={[textbookIcon, "#", "Lab Textbook"]}
         secondBook={[
           awesome,
           "https://runestone.academy/runestone/books/published/csawesome/index.html",
           "CSAwesome",
         ]}
-        summer={[sun, "/Construction", "Summer Work"]}
+        summer={[sun, "#", "Summer Work"]}
       />
 
       <Card
@@ -71,7 +71,7 @@ function CourseDeck() {
           "https://csab373.appspot.com/first/course",
           "Course Textbook",
         ]}
-        summer={[sun, "/Construction", "Summer Work"]}
+        summer={[sun, "#", "Summer Work"]}
       />
       <Card
         pic={cyber}
@@ -87,19 +87,19 @@ function CourseDeck() {
         pic={web}
         link="./Web"
         title="Web Design"
-        // textbook={[textbookIcon, "/Construction", "Course Textbook"]}
+        // textbook={[textbookIcon, "#", "Course Textbook"]}
       />
       <Card
         pic={game}
         link="./Game"
         title="Game Design"
-        // textbook={[textbookIcon, "/Construction", "Course Textbook"]}
+        // textbook={[textbookIcon, "#", "Course Textbook"]}
       />
       <Card
         pic={robotics}
         link="./Robotics"
         title="Robotics"
-        // textbook={[textbookIcon, "/Construction", "Course Textbook"]}
+        // textbook={[textbookIcon, "#", "Course Textbook"]}
       />
     </div>
   )

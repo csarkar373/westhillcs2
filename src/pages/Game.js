@@ -18,7 +18,7 @@ function Game(props) {
               pic={game}
               link="./Game"
               title="Game Design"
-              // textbook={[textbookIcon, "/Construction", "Course Textbook"]}
+              // textbook={[textbookIcon, "#", "Course Textbook"]}
             />
           </div>
         </Section>
