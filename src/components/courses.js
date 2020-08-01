@@ -15,7 +15,7 @@ import web from "../logo/web.png"
 import awesome from "../logo/CSAwesomeLogoSmall.png"
 import sun from "../logo/sun.png"
 
-function Courses() {
+function CourseDeck() {
   return (
     <div className="courses">
       <Card
@@ -82,4 +82,4 @@ function Courses() {
     </div>
   )
 }
-export default Courses
+export default CourseDeck
