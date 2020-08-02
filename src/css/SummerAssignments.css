@@ -1,0 +1,125 @@
+@import "./global.css";
+
+.summer {
+  height: 100%;
+  background: var(--lightYellow);
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+  top: 90px;
+  left: 0;
+  width: 85%;
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.summer_tab {
+  display: flex;
+  width: 100%;
+  height: 1.5em;
+  background: var(--VikingsGold);
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.summer a {
+  color: var(--VikingsPurple);
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.summer_title {
+  width: 100%;
+}
+
+.summer a:hover,
+a:active {
+  color: var(--VikingsGold);
+  text-decoration: none;
+}
+
+.summer_header {
+  display: flex;
+  flex-direction: row;
+  margin: 0 1rem;
+}
+
+.summer_item p,
+.summer_item bl,
+summer_item ol,
+summer_item li,
+.nav input[type="checkbox"] {
+  display: none;
+}
+
+#menu:checked ~ .two_level,
+.summer_item input:checked ~ p,
+.summer_item input:checked ~ bl,
+.summer_item input:checked ~ ol,
+.summer_item input:checked ~ li {
+  display: block;
+  margin: 0.25em 0.25em 0.25em 0.25em;
+}
+
+.arrow {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  float: left;
+  z-index: 0;
+  margin: 0px 0em 0 0em;
+  box-shadow: none;
+}
+
+.summer_item input + .arrow {
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.summer_item input:checked + .arrow {
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
+
+label:hover {
+  cursor: pointer;
+  color: var(--VikingsGold);
+}
+
+label {
+  width: 100%;
+  display: block;
+  z-index: 3;
+  position: relative;
+}
+
+label {
+  margin: 0;
+  padding: 0.25em 1em;
+  list-style: none;
+  text-decoration: none;
+  color: var(--VikingsPurple);
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+}
+
+p {
+  color: black;
+}
+
+.summer_item p,
+.summer_item input:checked ~ bl,
+.summer_item input:checked ~ ol,
+.summer_item input:checked ~ li {
+  padding: 1em 1em;
+  color: black;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.summer_link_container {
+  padding: 0.25em 1.3em;
+}

@@ -59,7 +59,7 @@ function CourseDeck() {
           "https://runestone.academy/runestone/books/published/csawesome/index.html",
           "CSAwesome",
         ]}
-        summer={[sun, "#", "Summer Work"]}
+        summer={[sun, "/SummerAssignments", "Summer Work"]}
       />
 
       <Card
@@ -71,7 +71,7 @@ function CourseDeck() {
           "https://csab373.appspot.com/first/course",
           "Course Textbook",
         ]}
-        summer={[sun, "#", "Summer Work"]}
+        summer={[sun, "/SummerAssignments", "Summer Work"]}
       />
       <Card
         pic={cyber}
