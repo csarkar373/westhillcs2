@@ -7,7 +7,7 @@ import Video from "../components/video"
 import IntroTools from "../tables/introtools"
 
 import intro from "../logo/scratchLogo.png"
-import textbookIcon from "../logo/book1.png"
+import add from "../util/add"
 
 function Intro(props) {
   return (
@@ -20,11 +20,7 @@ function Intro(props) {
               pic={intro}
               link="./Intro"
               title="Intro CS"
-              textbook={[
-                textbookIcon,
-                "https://csab373.appspot.com/introCS/",
-                "Course Textbook",
-              ]}
+              freeflow={add("-", "scratch, jeroo, code.org, lightbot, java")}
             />
           </div>
         </Section>

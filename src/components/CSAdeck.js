@@ -3,7 +3,6 @@ import "../css/global.css"
 import "../css/CourseDeck.css"
 import Card from "./Card.js"
 import textbookIcon from "../logo/book1.png"
-import csa from "../logo/bluejLogo.png"
 
 import greenfoot from "../logo/greenfootLogo.jpg"
 import notebook from "../logo/googlesites.png"
@@ -13,24 +12,10 @@ import codingbat from "../logo/CodingBatLogo.jpg"
 import googleDrive from "../logo/googledrive.png"
 import csagames from "../logo/csagames.png"
 import awesome from "../logo/CSAwesomeLogoSmall.png"
-import sun from "../logo/sun.png"
 
 function CSAdeck() {
   return (
     <div className="cards">
-      <Card
-        pic={csa}
-        link="/CSA"
-        title="AP CSA"
-        textbook={[textbookIcon, "#", "Lab Textbook"]}
-        secondBook={[
-          awesome,
-          "https://runestone.academy/runestone/books/published/csawesome/index.html",
-          "CSAwesome",
-        ]}
-        summer={[sun, "#", "Summer Work"]}
-      />
-
       <Card
         pic={codingbat}
         link="https://codingbat.com/java"

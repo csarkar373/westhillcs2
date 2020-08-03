@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import "../css/global.css"
+import add from "../util/add"
 import Layout from "../components/layout"
 import Section from "../components/section"
 import Card from "../components/Card"
@@ -8,8 +9,6 @@ import Video from "../components/video"
 
 import csp from "../logo/mobileCSPoriginal.png"
 import girlsCS from "../img/girlsCS.png"
-import ai from "../logo/ai-bee-logo.png"
-import textbookIcon from "../logo/book1.png"
 import brochureEnglish from "../img/CSPEnglish.jpg"
 import brochureSpanish from "../img/CSPSpanish.jpg"
 import summary from "../img/cspsummary.jpg"
@@ -25,16 +24,7 @@ function CSP(props) {
               pic={csp}
               link="./CSP"
               title="AP CSP"
-              textbook={[
-                textbookIcon,
-                "https://course.mobilecsp.org/mobilecsp",
-                "Course Textbook",
-              ]}
-              secondBook={[
-                ai,
-                "http://ai2.appinventor.mit.edu/",
-                "App Inventor",
-              ]}
+              freeflow={add("Algebra 1", "App Inventor")}
             />
           </div>
         </Section>

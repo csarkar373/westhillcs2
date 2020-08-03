@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Section from "../components/section"
 import Card from "../components/Card"
 import Video from "../components/video"
+import add from "../util/add"
 
 import web from "../logo/web.png"
 
@@ -16,9 +17,9 @@ function Web(props) {
           <div className="image_box">
             <Card
               pic={web}
-              link="./Web"
+              link="#"
               title="Web Design"
-              // textbook={[textbookIcon, "#", "Course Textbook"]}
+              freeflow={add("-", "Javascript")}
             />
           </div>
         </Section>

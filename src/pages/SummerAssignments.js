@@ -28,7 +28,7 @@ function SummerAssignments(props) {
                 <label for="csa">Data Structures</label>
                 <p>
                   Your summer assignment for Data Structures consists of the
-                  following.
+                  following:
                 </p>
                 <bl>
                   <li>

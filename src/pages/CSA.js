@@ -1,18 +1,42 @@
 import React from "react"
 import { Link } from "gatsby"
+import add from "../util/add"
 import "../css/global.css"
 import Layout from "../components/layout"
 import Section from "../components/section"
 import CSAdeck from "../components/CSAdeck"
 import Video from "../components/video"
+import Card from "../components/Card"
 import survey from "../img/CSApopularity.png"
 import summary from "../img/examsummary.png"
+import csa from "../logo/bluejLogo.png"
 
 function CSA(props) {
   return (
     <div>
       <Layout>
-        <h1>Course Description: AP Computer Science A</h1>
+        <Section title="Course Description: AP Computer Science A">
+          <div className="image_box">
+            <Card
+              pic={csa}
+              link="/CSA"
+              title="AP CSA"
+              freeflow={add("See Note", "Java")}
+            />
+          </div>
+          <p>
+            <b>
+              <u>Note</u>:{" "}
+            </b>
+            Before taking <b>AP CSA</b>, students must complete at least one
+            oter CS course listed here or take a{" "}
+            <a href="#">
+              <i>placement exam</i>
+            </a>
+            . Sophomores are encouraged to take <b>Cyber Security</b> before{" "}
+            <b>AP CSA</b>.
+          </p>
+        </Section>
         <Section title="Course Description">
           <p>
             This page contains more information about Westhill's AP CSA course.

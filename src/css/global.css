@@ -8,7 +8,7 @@
   --headerHeight: 10vh;
   --tableRowHeight: 28px;
   --maxWidth: 1500px;
-  --cardSize: 220px;
+  --cardSize: 250px;
   --cardSizeLarge: 380px;
   --cardSizeGiant: 380px;
   font-size: 1.2rem;
@@ -55,7 +55,7 @@ iframe {
 
 img:hover,
 iframe:hover {
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.45);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
 }
 
 .center {
@@ -103,6 +103,7 @@ iframe:hover {
 p {
   text-align: justify;
   font-weight: normal;
+  line-height: 1.5;
 }
 
 bl,

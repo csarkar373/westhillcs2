@@ -6,7 +6,7 @@ import Card from "../components/Card"
 import Video from "../components/video"
 
 import csab from "../logo/tree2.png"
-import textbookIcon from "../logo/book1.png"
+import add from "../util/add"
 import CSABtopics from "../tables/csabtopics"
 
 function CSAB(props) {
@@ -18,13 +18,9 @@ function CSAB(props) {
           <div className="image_box">
             <Card
               pic={csab}
-              link="./CSAB"
-              title="Data Structures"
-              textbook={[
-                textbookIcon,
-                "https://csab373.appspot.com/first/course",
-                "Course Textbook",
-              ]}
+              link="#"
+              title="CS AB"
+              freeflow={add("AP CSA", "Java")}
             />
           </div>
         </Section>

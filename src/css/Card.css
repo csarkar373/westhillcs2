@@ -54,8 +54,12 @@
   visibility: visible;
 }
 
-p {
+.card_container p {
   margin: 0 0 0 0;
+}
+
+.card_container a {
+  margin: 0.25em 0.25em 0.25em 0.25em;
 }
 
 .card_item_box {
@@ -66,7 +70,7 @@ p {
 }
 
 .card_freeflow_container {
-  margin: 0;
+  margin: 0.25em 1em;
   line-height: 1.5;
 }
 

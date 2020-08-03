@@ -61,11 +61,13 @@ header {
 .logo {
   height: 100%;
   box-shadow: none;
+  border: none;
   flex: 0.25;
 }
 
 .logo:hover {
   box-shadow: none;
+  border: none;
 }
 
 .spacer {

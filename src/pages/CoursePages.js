@@ -3,7 +3,7 @@ import "../css/index.css"
 
 import Layout from "../components/layout"
 import Section from "../components/section"
-import CourseDeck from "../components/CourseDeck"
+import PrereqDeck from "../components/PrereqDeck"
 
 import prerequisites from "../img/prerequisites.png"
 import languages from "../img/languages.png"
@@ -13,19 +13,36 @@ function CoursePages(props) {
     <div>
       <Layout>
         <h1>Information About CSAW Courses</h1>
+        <p>
+          Prerequisites required to take each course is listed in each box,
+          below. Also listed are the langauges taught in the course. Click on
+          the link to go to the individual course description page.
+        </p>
         <Section title="Click on a Course for More Info">
-          <CourseDeck />
+          <PrereqDeck />
         </Section>
-        <Section title="Prerequisites and Languages">
-          <div className="image_container">
-            <h4>CSAW Course Prerequisites</h4>
-            <img src={prerequisites} alt="award" width="800" />
-          </div>
-
-          <div className="image_container">
-            <h4>Programming Languages for each Course</h4>
-            <img src={languages} alt="award" width="800" />
-          </div>
+        <Section title="Notes on Prerequisites">
+          <p>
+            <b>
+              <u>Note 1</u>:{" "}
+            </b>
+            Before taking <b>AP CSA</b>, students must complete at least one
+            oter CS course listed here or take a{" "}
+            <a href="#">
+              <i>placement exam</i>
+            </a>
+            . Sophomores are encouraged to take <b>Cyber Security</b> before{" "}
+            <b>AP CSA</b>.
+          </p>
+          <p>
+            <b>
+              <u>Note 2</u>:{" "}
+            </b>
+            There is no prerequisite for <b>CP Cyber Security</b>. Before taking{" "}
+            <b>Honors Cyber Security,</b> students must complete either{" "}
+            <b>AP CSP</b> or <b>Python A</b> and <b>Python B</b> and have taken
+            (or concurrently be taking) Honors Algebra 2
+          </p>
         </Section>
       </Layout>
     </div>

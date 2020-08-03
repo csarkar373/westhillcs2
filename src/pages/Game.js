@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Section from "../components/section"
 import Card from "../components/Card"
 import Video from "../components/video"
+import add from "../util/add"
 
 import game from "../logo/gameLogo.png"
 
@@ -16,9 +17,9 @@ function Game(props) {
           <div className="image_box">
             <Card
               pic={game}
-              link="./Game"
+              link="#"
               title="Game Design"
-              // textbook={[textbookIcon, "#", "Course Textbook"]}
+              freeflow={add("-", "Game Maker")}
             />
           </div>
         </Section>

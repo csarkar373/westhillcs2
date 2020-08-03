@@ -10,6 +10,7 @@ import robo3 from "../img/robo3.jpeg"
 import robo4 from "../img/robo4.jpeg"
 import robo5 from "../img/robo5.jpeg"
 import robotics from "../logo/robotics4.png"
+import add from "../util/add"
 
 function Robotics(props) {
   return (
@@ -20,9 +21,9 @@ function Robotics(props) {
           <div className="image_box">
             <Card
               pic={robotics}
-              link="./Robotics"
+              link="#"
               title="Robotics"
-              // textbook={[textbookIcon, "#", "Course Textbook"]}
+              freeflow={add("-", "Java")}
             />
           </div>
         </Section>

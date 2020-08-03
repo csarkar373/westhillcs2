@@ -6,7 +6,7 @@ import Card from "../components/Card"
 import Video from "../components/video"
 
 import python from "../logo/pythonLogo.png"
-import textbookIcon from "../logo/book1.png"
+import add from "../util/add"
 
 function Python(props) {
   return (
@@ -17,13 +17,9 @@ function Python(props) {
           <div className="image_box">
             <Card
               pic={python}
-              link="./Python"
+              link="#"
               title="Python A/B"
-              textbook={[
-                textbookIcon,
-                "https://academy.cs.cmu.edu/login",
-                "Course Textbook",
-              ]}
+              freeflow={add("-", "Python")}
             />
           </div>
         </Section>

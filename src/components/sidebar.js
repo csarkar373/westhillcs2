@@ -42,7 +42,8 @@ function sideBar(props) {
           <div className="sidebar_item">
             <input type="checkbox" id="about" />
             <img src={arrow} className="arrow" />
-            <label for="about">About CSAW</label>
+            <label htmlFor="about">About CSAW</label>
+
             <ul>
               <li>
                 <a href="#">Pathways: Choosing Courses</a>
@@ -68,10 +69,14 @@ function sideBar(props) {
           <div className="sidebar_item">
             <input type="checkbox" id="courses" />
             <img src={arrow} className="arrow" />
-            <label for="courses">Courses</label>
+            <label htmlFor="courses">Courses</label>
+
             <ul>
               <li>
                 <a href="/CoursePages">Course Information Pages</a>
+              </li>
+              <li>
+                <a href="/CoursePages">Course Prerequisites</a>
               </li>
               <li>
                 <a href="/GradeCalc">Grade Calculation</a>
@@ -81,7 +86,7 @@ function sideBar(props) {
           <div className="sidebar_item">
             <input type="checkbox" id="people" />
             <img src={arrow} className="arrow" />
-            <label for="people">People</label>
+            <label htmlFor="people">People</label>
             <ul>
               <li>
                 <a href="/StudentWinners">Students of the Year</a>
@@ -100,7 +105,8 @@ function sideBar(props) {
           <div className="sidebar_item">
             <input type="checkbox" id="clubs" />
             <img src={arrow} className="arrow" />
-            <label for="clubs">Clubs/Competitions</label>
+            <label htmlFor="clubs">Clubs/Competitions</label>
+
             <ul>
               <li>
                 <Link to="/Clubs">Girls Who Code Club</Link>

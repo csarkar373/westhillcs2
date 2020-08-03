@@ -6,7 +6,7 @@ import Card from "../components/Card"
 import Video from "../components/video"
 
 import cyber from "../logo/cyberLogo.png"
-import textbookIcon from "../logo/book1.png"
+import add from "../util/add"
 
 function Cyber(props) {
   return (
@@ -17,15 +17,20 @@ function Cyber(props) {
           <div className="image_box">
             <Card
               pic={cyber}
-              link="./Cyber"
+              link="#"
               title="Cyber Security"
-              textbook={[
-                textbookIcon,
-                "https://csab373.appspot.com/cyber/course",
-                "Course Textbook",
-              ]}
+              freeflow={add("See Note", "Python")}
             />
           </div>
+          <p>
+            <b>
+              <u>Note</u>:{" "}
+            </b>
+            There is no prerequisite for <b>CP Cyber Security</b>. Before taking{" "}
+            <b>Honors Cyber Security,</b> students must complete either{" "}
+            <b>AP CSP</b> or <b>Python A</b> and <b>Python B</b> and have taken
+            (or concurrently be taking) Honors Algebra 2
+          </p>
         </Section>
 
         <Section title="Course Description">
