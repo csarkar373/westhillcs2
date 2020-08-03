@@ -4,7 +4,7 @@ import "../css/index.css"
 import Layout from "../components/layout"
 import Section from "../components/section"
 import Video from "../components/video"
-import CardDeck from "../components/CourseDeck"
+import CourseDeck from "../components/CourseDeck"
 
 import CodingGames from "../tables/codinggames"
 import CSPscores from "../tables/cspscores"
@@ -53,7 +53,7 @@ function Home(props) {
         </p>
 
         <Section title="Click on a Course for More Info">
-          <CardDeck />
+          <CourseDeck />
         </Section>
         <Section title="Try a Little Programming">
           <p>

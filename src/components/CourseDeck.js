@@ -49,7 +49,7 @@ function CourseDeck() {
         pic={csa}
         link="/CSA"
         title="AP CSA"
-        cardItem={[tbIcon, "#", "Lab cardItem"]}
+        cardItem={[tbIcon, "#", "Lab Workbook"]}
         secondItem={[
           awesome,
           "https://runestone.academy/runestone/books/published/csawesome/index.html",

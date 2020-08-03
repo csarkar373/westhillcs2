@@ -71,10 +71,10 @@ function sideBar(props) {
             <label for="courses">Courses</label>
             <ul>
               <li>
-                <a href="#">Course Information Pages</a>
+                <a href="/CoursePages">Course Information Pages</a>
               </li>
               <li>
-                <a href="#">Grade Calculation</a>
+                <a href="/GradeCalc">Grade Calculation</a>
               </li>
             </ul>
           </div>

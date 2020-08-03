@@ -80,6 +80,7 @@ a:active {
   z-index: 0;
   margin: 0px 0em 0 0em;
   box-shadow: none;
+  border: none;
 }
 
 .sidebar_item input + .arrow {
@@ -143,6 +144,7 @@ h5 {
 .sun,
 .sun:hover {
   box-shadow: none;
+  border: none;
   margin: 0;
 }
 

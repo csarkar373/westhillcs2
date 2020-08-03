@@ -31,6 +31,10 @@ h4 {
   margin: 0 0 0 0;
 }
 
+h1 {
+  margin: 15px;
+}
+
 .img {
   display: flex;
   flex-direction: column;
@@ -41,6 +45,7 @@ h4 {
 
 img {
   margin: 1em;
+  border: solid 1px;
 }
 
 img,

@@ -4,6 +4,9 @@ footer {
   font-size: 0.75em;
   color: black;
   margin: 2em 2em;
+  background: var(--lightYellow);
+  border: solid var(--VikingsGold);
+  padding: 5px 5px;
 }
 
 .sb_open {

@@ -4,7 +4,7 @@ import "../css/section.css"
 function Section(props) {
   return (
     <div className="section">
-      <h3>{props.title}</h3>
+      <h2>{props.title}</h2>
       {props.children}
     </div>
   )

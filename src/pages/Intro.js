@@ -13,8 +13,8 @@ function Intro(props) {
   return (
     <div>
       <Layout>
-        <h1>Course Description: Data Structures (Formerly CS AB)</h1>
-        <Section title="Introduction to Computer Science">
+        <h1>Course Description: Introduction to Computer Science</h1>
+        <Section title="">
           <div className="image_box">
             <Card
               pic={intro}
