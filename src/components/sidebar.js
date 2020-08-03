@@ -49,16 +49,13 @@ function sideBar(props) {
                 <a href="#">Pathways: Choosing Courses</a>
               </li>
               <li>
-                <a href="#">Placement Exam</a>
-              </li>
-              <li>
-                <a href="#">Middle School/Transfer</a>
+                <a href="/Exam">Placement Exam</a>
               </li>
               <li>
                 <a href="/Internships">Senior Interships</a>
               </li>
               <li>
-                <a href="#">Forms</a>
+                <a href="/Forms">Forms</a>
               </li>
               <li>
                 <Link to="/FAQ">FAQ</Link>

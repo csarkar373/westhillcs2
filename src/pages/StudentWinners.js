@@ -3,7 +3,7 @@ import "../css/index.css"
 
 import Layout from "../components/layout"
 import Section from "../components/section"
-import CodingGames from "../tables/codinggames"
+
 import WinnersTables from "../tables/WinnersTables"
 import medal2018 from "../img/medal_award_2018.jpg"
 import medal2019 from "../img/medal_award_2019.jpg"

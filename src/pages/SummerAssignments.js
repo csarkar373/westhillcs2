@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
 import "../css/SummerAssignments.css"
 import Layout from "../components/layout"
 import Section from "../components/section"
@@ -80,7 +79,6 @@ function SummerAssignments(props) {
                   Sarkar's AP Computer Science A class on the Internet. Here are
                   your instructions for doing this:
                 </p>
-
                 <p>
                   You must first log into your school Google account, the one
                   that begins with your Westhill ID and ends with
@@ -92,7 +90,6 @@ function SummerAssignments(props) {
                   pressing the REGISTRATION button. Enter your name where
                   indicated.{" "}
                 </p>
-
                 <p>
                   Once registered, you should have access to the on-line
                   materials. Your summer assignments consist of you completing
@@ -100,13 +97,11 @@ function SummerAssignments(props) {
                   completion time for Unit 1 is 1 hour, for Unit 2 is 2 hours
                   and for Unit 3 is 10-15 hours. For Unit 4 it is 1 hour.
                 </p>
-
                 <p>
                   Unit 1 will show you how to install Java and BlueJ on your
                   home PC as well as how to sign up for some free on-line tools
                   we will be using throughout the course.
                 </p>
-
                 <p>
                   Unit 2 will give you some lessons on how to convert between
                   decimal, binary and hexadecimal numbers. Everyone must

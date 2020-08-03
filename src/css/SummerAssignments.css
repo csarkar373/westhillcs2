@@ -106,11 +106,6 @@ label {
   width: 100%;
 }
 
-p {
-  color: black;
-}
-
-.summer_item p,
 .summer_item input:checked ~ bl,
 .summer_item input:checked ~ ol,
 .summer_item input:checked ~ li {
@@ -118,6 +113,13 @@ p {
   color: black;
   font-weight: 100;
   line-height: 1.5;
+}
+
+.summer_item p {
+  margin: 0;
+  padding: 0.5em 1em;
+  line-height: 1.5;
+  font-weight: 100;
 }
 
 .summer_link_container {

@@ -27,7 +27,7 @@ function CoursePages(props) {
               <u>Note 1</u>:{" "}
             </b>
             Before taking <b>AP CSA</b>, students must complete at least one
-            oter CS course listed here or take a{" "}
+            other CS course listed here or take a{" "}
             <a href="#">
               <i>placement exam</i>
             </a>

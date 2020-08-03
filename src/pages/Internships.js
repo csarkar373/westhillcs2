@@ -11,7 +11,7 @@ function Internships(props) {
   return (
     <div>
       <Layout>
-        <Section title="Senior Internshps">
+        <Section title="Senior Internships">
           Due to the on-going threat from the coronavirus, the placement of
           Seniors in Summer Internships has been temporarily suspended. More
           details to follow ...
