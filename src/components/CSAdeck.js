@@ -1,4 +1,5 @@
 import React from "react"
+import "../css/global.css"
 import "../css/CourseDeck.css"
 import Card from "./Card.js"
 import textbookIcon from "../logo/book1.png"
@@ -16,7 +17,7 @@ import sun from "../logo/sun.png"
 
 function CSAdeck() {
   return (
-    <div className="courses">
+    <div className="cards">
       <Card
         pic={csa}
         link="/CSA"

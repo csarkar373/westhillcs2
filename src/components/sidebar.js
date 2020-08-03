@@ -28,6 +28,9 @@ function sideBar(props) {
             <Link to="/">Home</Link>
           </div>
           <div className="sidebar_link_container">
+            <Link to="/ContactUs">Contact Us/Teacher Info</Link>
+          </div>
+          <div className="sidebar_link_container">
             <Link to="/SummerAssignments">
               Summer Assignments
               <img className="sun" src={sun} height="25" width="25" alt="sun" />
@@ -81,16 +84,13 @@ function sideBar(props) {
             <label for="people">People</label>
             <ul>
               <li>
-                <a href="#">Meet Your Teachers</a>
-              </li>
-              <li>
-                <a href="#">Students of the Year</a>
+                <a href="/StudentWinners">Students of the Year</a>
               </li>
               <li>
                 <a href="#">Examples of Student Work</a>
               </li>
               <li>
-                <a href="#">Suppliers and Partners</a>
+                <a href="/Partners">Suppliers and Partners</a>
               </li>
               <li>
                 <a href="#">Class Photos and Videos</a>
@@ -103,13 +103,13 @@ function sideBar(props) {
             <label for="clubs">Clubs/Competitions</label>
             <ul>
               <li>
-                <a href="#">Girls Who Code Club</a>
+                <Link to="/Clubs">Girls Who Code Club</Link>
               </li>
               <li>
-                <a href="#">Competitive Java Club</a>
+                <Link to="/Clubs">Competitive Java Club</Link>
               </li>
               <li>
-                <a href="#">State Competitions</a>
+                <Link to="/Clubs">State Competitions</Link>
               </li>
             </ul>
           </div>

@@ -72,12 +72,12 @@ function Home(props) {
                 caption="Alumni Promote CS"
               ></Video>
             </div>
-            <div className="img_container">
+            <div className="image_container">
               <img src={cyber} alt="award" width="350" />
               <h4>Cyber Team (State Bronze Medal)</h4>
             </div>
 
-            <div className="img_container">
+            <div className="image_container">
               <img src={crevecoeur} alt="award" width="235" />
               <h4>NCWIT Award Winner</h4>
             </div>

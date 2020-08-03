@@ -8,6 +8,9 @@
   --headerHeight: 10vh;
   --tableRowHeight: 28px;
   --maxWidth: 1500px;
+  --cardSize: 220px;
+  --cardSizeLarge: 380px;
+  --cardSizeGiant: 380px;
   font-size: 1.2rem;
 }
 
@@ -25,7 +28,7 @@ h5 {
 }
 
 h4 {
-  margin: 0.2em 0 0.2em 0;
+  margin: 0 0 0 0;
 }
 
 .img {
@@ -34,6 +37,10 @@ h4 {
   align-items: center;
   margin-top: 1em;
   /* background: green; */
+}
+
+img {
+  margin: 1em;
 }
 
 img,
@@ -75,6 +82,15 @@ iframe:hover {
   margin: 50px 5px;
 }
 
+/* .img_container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+} */
+
 .rotate90 {
   transform: rotate(-90deg);
 }
@@ -110,4 +126,9 @@ ol {
 
 .video_container {
   flex: 1;
+}
+
+.as_is {
+  background: green;
+  white-space: pre;
 }

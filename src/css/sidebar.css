@@ -143,6 +143,7 @@ h5 {
 .sun,
 .sun:hover {
   box-shadow: none;
+  margin: 0;
 }
 
 h3 {

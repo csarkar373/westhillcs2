@@ -18,6 +18,8 @@ function SummerAssignments(props) {
               <div className="summer_link_container">
                 <p>
                   Only the CSAW Courses listed below, have summer assignments.
+                  Other CSAW courses shown on the home page of this site do not
+                  currently have summer work.
                 </p>
               </div>
               <div className="summer_item">

@@ -1,7 +1,7 @@
 import React from "react"
 import "../css/CourseDeck.css"
 import Card from "./Card.js"
-import textbookIcon from "../logo/book1.png"
+import tbIcon from "../logo/book1.png"
 import csa from "../logo/bluejLogo.png"
 import csp from "../logo/mobileCSPoriginal.png"
 import ai from "../logo/ai-bee-logo.png"
@@ -17,34 +17,30 @@ import sun from "../logo/sun.png"
 
 function CourseDeck() {
   return (
-    <div className="courses">
+    <div className="cards">
       <Card
         pic={csp}
         link="./CSP"
         title="AP CSP"
-        textbook={[
-          textbookIcon,
+        cardItem={[
+          tbIcon,
           "https://course.mobilecsp.org/mobilecsp",
           "Course Textbook",
         ]}
-        secondBook={[ai, "http://ai2.appinventor.mit.edu/", "App Inventor"]}
+        secondItem={[ai, "http://ai2.appinventor.mit.edu/", "App Inventor"]}
       />
       <Card
         pic={python}
         link="./Python"
         title="Python A/B"
-        textbook={[
-          textbookIcon,
-          "https://academy.cs.cmu.edu/",
-          "Course Textbook",
-        ]}
+        cardItem={[tbIcon, "https://academy.cs.cmu.edu/", "Course Textbook"]}
       />
       <Card
         pic={intro}
         link="./Intro"
         title="Intro CS"
-        textbook={[
-          textbookIcon,
+        cardItem={[
+          tbIcon,
           "https://csab373.appspot.com/introCS/course",
           "Course Textbook",
         ]}
@@ -53,8 +49,8 @@ function CourseDeck() {
         pic={csa}
         link="/CSA"
         title="AP CSA"
-        textbook={[textbookIcon, "#", "Lab Textbook"]}
-        secondBook={[
+        cardItem={[tbIcon, "#", "Lab cardItem"]}
+        secondItem={[
           awesome,
           "https://runestone.academy/runestone/books/published/csawesome/index.html",
           "CSAwesome",
@@ -66,8 +62,8 @@ function CourseDeck() {
         pic={csab}
         link="./CSAB"
         title="CS AB"
-        textbook={[
-          textbookIcon,
+        cardItem={[
+          tbIcon,
           "https://csab373.appspot.com/first/course",
           "Course Textbook",
         ]}
@@ -77,8 +73,8 @@ function CourseDeck() {
         pic={cyber}
         link="/Cyber"
         title="Cyber Security"
-        textbook={[
-          textbookIcon,
+        cardItem={[
+          tbIcon,
           "https://csab373.appspot.com/cyber/course",
           "Course Textbook",
         ]}
@@ -87,19 +83,19 @@ function CourseDeck() {
         pic={web}
         link="./Web"
         title="Web Design"
-        // textbook={[textbookIcon, "#", "Course Textbook"]}
+        // cardItem={[tbIcon, "#", "Course Textbook"]}
       />
       <Card
         pic={game}
         link="./Game"
         title="Game Design"
-        // textbook={[textbookIcon, "#", "Course Textbook"]}
+        // cardItem={[tbIcon, "#", "Course Textbook"]}
       />
       <Card
         pic={robotics}
         link="./Robotics"
         title="Robotics"
-        // textbook={[textbookIcon, "#", "Course Textbook"]}
+        // cardItem={[tbIcon, "#", "Course Textbook"]}
       />
     </div>
   )
