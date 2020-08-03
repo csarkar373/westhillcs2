@@ -7,7 +7,7 @@ import csa from "../logo/bluejLogo.png"
 import mobileCSP from "../logo/mobileCSPlarge.png"
 import scholastica from "../logo/csed.png"
 import CSAwesome from "../logo/CSAwesomeLogoSmall.png"
-import CMU from "../logo/CMUlogo.png"
+import CMU from "../logo/cmuLogo.png"
 import beyondLimits from "../logo/beyondlimits.jpg"
 import girlsWhoCode from "../logo/girlswhocode.png"
 
