@@ -24,7 +24,7 @@ function SummerAssignments(props) {
               </div>
               <div className="summer_item">
                 <input type="checkbox" id="csa" />
-                <img src={arrow} className="arrow" />
+                <img src={arrow} className="arrow" alt="arrow" />
                 <label for="csa">Data Structures</label>
                 <p>
                   Your summer assignment for Data Structures consists of the
@@ -73,7 +73,7 @@ function SummerAssignments(props) {
               </div>
               <div className="summer_item">
                 <input type="checkbox" id="ds" />
-                <img src={arrow} className="arrow" />
+                <img src={arrow} className="arrow" alt="arrow" />
                 <label for="ds">AP Computer Science A</label>
                 <p>
                   Your summer assignment can be found by registering for Mr.

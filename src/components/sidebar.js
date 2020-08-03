@@ -54,7 +54,7 @@ function sideBar(props) {
                 <a href="#">Middle School/Transfer</a>
               </li>
               <li>
-                <a href="#">Senior Interships</a>
+                <a href="/Internships">Senior Interships</a>
               </li>
               <li>
                 <a href="#">Forms</a>
@@ -87,13 +87,13 @@ function sideBar(props) {
                 <a href="/StudentWinners">Students of the Year</a>
               </li>
               <li>
-                <a href="#">Examples of Student Work</a>
+                <a href="/ExamplesOfWork">Examples of Student Work</a>
               </li>
               <li>
                 <a href="/Partners">Suppliers and Partners</a>
               </li>
               <li>
-                <a href="#">Class Photos and Videos</a>
+                <a href="/ClassPhotos">Class Photos and Videos</a>
               </li>
             </ul>
           </div>
