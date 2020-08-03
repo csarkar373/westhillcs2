@@ -4,7 +4,7 @@ import Card from "./Card.js"
 import textbookIcon from "../logo/book1.png"
 import csa from "../logo/bluejLogo.png"
 
-import mobileCSP from "../logo/mobileCSPlarge.png"
+import mobileCSP from "../logo/MobileCSPlarge.png"
 import scholastica from "../logo/csed.png"
 import CSAwesome from "../logo/CSAwesomeLogoSmall.png"
 import CMU from "../logo/cmuLogo.png"
