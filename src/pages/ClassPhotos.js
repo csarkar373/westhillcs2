@@ -24,7 +24,7 @@ function ClassPhotos(props) {
         <Section title="Class Photos">
           <div className="carousel_container">
             <div className="photo_carousel">
-              <Carousel infiniteLoop autoPlay>
+              <Carousel infiniteLoop autoPlay showThumbs={false}>
                 <div>
                   <img src={p1} />
                   <p className="legend">
