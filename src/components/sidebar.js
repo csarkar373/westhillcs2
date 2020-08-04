@@ -14,16 +14,14 @@ import sun from "../logo/sun.png"
 function sideBar(props) {
   return (
     <nav className="sidebar">
-      <div className="sidebar_header">
-        <h3 className="sidebar_title">Menu</h3>
-        <div className="sidebar_spacer" />
-        <button className="closingx" onClick={props.click}>
-          <img className="closingx" src={closingx} alt="0"></img>
-        </button>
-      </div>
       <div className="nav">
         <div className="multi_level">
-          <div className="sidebar_tab">Academy Info</div>
+          <div className="sidebar_header">
+            <div className="sidebar_tab">Academy Info</div>
+            <button className="closingx" onClick={props.click}>
+              <img className="closingx" src={closingx} alt="0"></img>
+            </button>
+          </div>
           <div className="sidebar_link_container">
             <Link to="/">Home</Link>
           </div>
@@ -48,6 +46,9 @@ function sideBar(props) {
             <label htmlFor="about">About CSAW</label>
 
             <ul>
+              <li>
+                <a href="/Summary">CSAW Summary</a>
+              </li>
               <li>
                 <a href="/Exam">Placement Exam</a>
               </li>

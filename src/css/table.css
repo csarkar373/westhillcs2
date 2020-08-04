@@ -21,8 +21,13 @@
 
 .tableHeaderRow {
   background: var(--VikingsGold);
+
   /* setting the height explicitly ruins the responsive nature */
   /* height: var(--tableRowHeight); */
+}
+
+.tableHeaderItem {
+  padding: 0.5em 1.3em;
 }
 
 .tableRow {

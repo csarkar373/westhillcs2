@@ -51,7 +51,7 @@ a:active {
 .sidebar_header {
   display: flex;
   flex-direction: row;
-  margin: 0 1rem;
+  margin: 1rem 0.25rem 0 0rem;
 }
 
 .sidebar_spacer {
@@ -59,13 +59,13 @@ a:active {
 }
 
 .closingx {
-  height: 20px;
+  height: 29px;
   width: 20px;
   border: none;
   /* prevent border showing when clicked */
   outline: none;
-  background: var(--sidebar_background_color);
-  margin: 15px 0px;
+  background: var(--VikingsGold);
+  margin: 0;
   box-shadow: none;
 }
 
@@ -157,5 +157,5 @@ h5 {
 }
 
 h3 {
-  margin: 1.2em 0 0.5em 0;
+  margin: 1.3em 0 0.5em 0;
 }
