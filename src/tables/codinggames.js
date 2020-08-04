@@ -39,6 +39,17 @@ function codingGames() {
         </Tr>
         <Tr className="tableRow">
           <Td className="item">
+            <a href="https://www.code.org">Code.org</a>
+          </Td>
+          <Td className="item">
+            <a href="https://studio.code.org/s/express-2020">Express Course</a>
+          </Td>
+          <Td className="lastItem">
+            A bigger challenge for beginning programmers.
+          </Td>
+        </Tr>
+        <Tr className="tableRow">
+          <Td className="item">
             <a href="https://sites.google.com/view/codinggames/home">
               CS Coding Games
             </a>

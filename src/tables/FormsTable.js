@@ -24,7 +24,7 @@ function FormsTable() {
             <Td>
               <div>
                 <a href="https://drive.google.com/open?id=1DLRHlz_cnteISRPcgrBkrl4LR2uhC8q2cQsEA-tfPQg">
-                  <img src={forms} width="100" height="100" alt="" />
+                  <img src={forms} height="100" alt="" />
                 </a>
               </div>
             </Td>
@@ -40,7 +40,7 @@ function FormsTable() {
             <Td>
               <div>
                 <a href="https://docs.google.com/forms/d/1_VfhJmmk1wkYJEYsHlvaddHqunphUAUJ93Z56Fj0Nps/edit?usp=sharing">
-                  <img src={forms} width="100" height="100" alt="" />
+                  <img src={forms} height="100" alt="" />
                 </a>
               </div>
             </Td>
@@ -53,7 +53,7 @@ function FormsTable() {
             <Td>
               <div>
                 <a href="https://drive.google.com/open?id=1HdyPxc7U_h9YTxa8bcuCpb91mXND36GwDu7cvoEHQF8">
-                  <img src={forms} width="100" height="100" alt="" />
+                  <img src={forms} height="100" alt="" />
                 </a>
               </div>
             </Td>
@@ -66,7 +66,7 @@ function FormsTable() {
             <Td>
               <div>
                 <a href="https://drive.google.com/open?id=12rhsEbbTxwz8qvja8uLYULPBwK6c6akKmBCsGFcoGzA">
-                  <img src={forms} width="100" height="100" alt="" />
+                  <img src={forms} height="100" alt="" />
                 </a>
               </div>
             </Td>
@@ -82,7 +82,7 @@ function FormsTable() {
             <Td>
               <div>
                 <a href="https://drive.google.com/open?id=1acBs2sDHevopQxsHgy0c4Va81hGOJbMk">
-                  <img src={pdf} width="100" height="100" alt="" />
+                  <img src={pdf} height="100" alt="" />
                 </a>
               </div>
             </Td>

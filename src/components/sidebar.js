@@ -28,13 +28,16 @@ function sideBar(props) {
             <Link to="/">Home</Link>
           </div>
           <div className="sidebar_link_container">
-            <Link to="/ContactUs">Contact Us/Teacher Info</Link>
-          </div>
-          <div className="sidebar_link_container">
             <Link to="/SummerAssignments">
               Summer Assignments
               <img className="sun" src={sun} height="25" width="25" alt="sun" />
             </Link>
+          </div>
+          <div className="sidebar_link_container">
+            <Link to="/Incoming">For Incoming Students</Link>
+          </div>
+          <div className="sidebar_link_container">
+            <Link to="/ContactUs">Contact Us/Teacher Info</Link>
           </div>
           <div className="sidebar_link_container">
             <a href="https://sites.google.com/view/codinggames/home">Games</a>
@@ -45,9 +48,6 @@ function sideBar(props) {
             <label htmlFor="about">About CSAW</label>
 
             <ul>
-              <li>
-                <a href="#">Pathways: Choosing Courses</a>
-              </li>
               <li>
                 <a href="/Exam">Placement Exam</a>
               </li>
@@ -60,6 +60,9 @@ function sideBar(props) {
               <li>
                 <Link to="/FAQ">FAQ</Link>
               </li>
+              <li>
+                <a href="/ClassPhotos">Class Photos and Videos</a>
+              </li>
             </ul>
           </div>
 
@@ -67,8 +70,10 @@ function sideBar(props) {
             <input type="checkbox" id="courses" />
             <img src={arrow} className="arrow" />
             <label htmlFor="courses">Courses</label>
-
             <ul>
+              <li>
+                <a href="/Pathways">Pathways: Choosing Courses</a>
+              </li>
               <li>
                 <a href="/CoursePages">Course Information Pages</a>
               </li>
@@ -93,9 +98,6 @@ function sideBar(props) {
               </li>
               <li>
                 <a href="/Partners">Suppliers and Partners</a>
-              </li>
-              <li>
-                <a href="/ClassPhotos">Class Photos and Videos</a>
               </li>
             </ul>
           </div>

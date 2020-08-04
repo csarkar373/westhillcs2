@@ -38,9 +38,9 @@ function SummerAssignments(props) {
                   <li>
                     You should go to this link and register for your{" "}
                     <a href="https://csab373.appspot.com/first/course">
-                      on-line
-                    </a>{" "}
-                    textbook.
+                      on-line textbook{" "}
+                    </a>
+                    .
                   </li>
                   <li>
                     You have to finish the following labs from the end of the AP

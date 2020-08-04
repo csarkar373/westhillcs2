@@ -13,14 +13,42 @@ function CoursePages(props) {
     <div>
       <Layout>
         <h1>Information About CSAW Courses</h1>
-        <p>
-          Prerequisites required to take each course is listed in each box,
-          below. Also listed are the langauges taught in the course. Click on
-          the link to go to the individual course description page.
-        </p>
+        <Section title="Course Notes">
+          <bl>
+            <li>
+              Honors freshmen wanting to take an AP Computer Science course in
+              their first year at Westhill are encouraged to take AP CSP before
+              taking AP Comp Sci A.
+            </li>
+            <li>
+              Incoming 9th graders with extensive, previous experience with
+              programming may, however, take the optional placement exam to be
+              placed directly into AP CSA.
+            </li>
+            <li>
+              Seniors are encouraged to take AP CSP or AP Computer Science A in
+              place of Intro to Comp Sci.
+            </li>
+            <li>
+              Students must successfully complete AP Computer Science A to be
+              eligible to take the Data Structures course.
+            </li>
+            <li>
+              No previous programming experience is necessary for the Intro,
+              CSP, and Comp Sci A courses.
+            </li>
+          </bl>
+        </Section>
+
         <Section title="Click on a Course for More Info">
+          <p>
+            Prerequisites required to take each course is listed in each box,
+            below. Also listed are the langauges taught in the course. Click on
+            the link to go to the individual course description page.
+          </p>
           <PrereqDeck />
         </Section>
+
         <Section title="Notes on Prerequisites">
           <p>
             <b>
