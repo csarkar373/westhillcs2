@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 import "../css/SummerAssignments.css"
 import Layout from "../components/layout"
 import Section from "../components/section"

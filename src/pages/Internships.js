@@ -12,8 +12,8 @@ function Internships(props) {
     <div>
       <Layout>
         <Section title="Senior Internships">
-          Due to the on-going threat from the coronavirus, the placement of
-          Seniors in Summer Internships has been temporarily suspended. More
+          Due to the on-going threat from the coronavirus, CSAW's placement of
+          Seniors into Summer Internships has been temporarily suspended. More
           details to follow ...
         </Section>
       </Layout>

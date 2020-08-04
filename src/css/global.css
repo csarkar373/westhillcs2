@@ -58,6 +58,21 @@ iframe:hover {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
 }
 
+.responsive_image {
+  width: 80%;
+  height: auto;
+}
+
+.responsive_slides {
+  width: 80%;
+  height: 500px;
+}
+
+.responsive_image_small {
+  width: 50%;
+  height: auto;
+}
+
 .center {
   display: block;
   margin-left: auto;

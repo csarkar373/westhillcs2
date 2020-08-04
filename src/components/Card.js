@@ -3,10 +3,6 @@ import "../css/global.css"
 import "../css/Card.css"
 
 class Card extends Component {
-  constructor(props) {
-    super(props)
-  }
-
   add(freeflow) {
     if (freeflow) {
       return <p className="card_freeflow">{freeflow}</p>

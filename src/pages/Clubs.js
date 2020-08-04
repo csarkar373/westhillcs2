@@ -34,13 +34,11 @@ function Clubs(props) {
             Quinnipeac programming competitions. The status of both of these
             competitions for the 2020-2021 school year remains uncertain.
           </p>
-          <br />
           <p>
             Lockheed Martin will attempt to hold its annual competition
             virtually this year, either in late January or early February. More
             details to follow ...
           </p>
-          <br />
           <p>
             Practice problems from previous competitions can be found by
             clicking{" "}

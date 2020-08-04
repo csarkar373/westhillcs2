@@ -69,6 +69,11 @@ a:active {
   box-shadow: none;
 }
 
+.closingx:hover {
+  cursor: pointer;
+  box-shadow: none;
+}
+
 .sidebar_item ul,
 .nav input[type="checkbox"] {
   display: none;

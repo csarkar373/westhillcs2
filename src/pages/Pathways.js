@@ -1,10 +1,9 @@
 import React from "react"
-import "../css/index.css"
+import "../css/global.css"
 
 import Layout from "../components/layout"
 import Section from "../components/section"
 import Video from "../components/video"
-import PrereqDeck from "../components/PrereqDeck"
 import PathwaysTable from "../tables/PathwaysTable"
 
 import venn from "../img/venn.png"
@@ -12,6 +11,8 @@ import comparison from "../img/comparison.jpg"
 import difficulty from "../img/difficulty.png"
 import pathways from "../img/pathways.png"
 import starter from "../img/starter.png"
+
+import onePager from "../img/onePager.png"
 
 function Pathways(props) {
   return (
@@ -26,8 +27,9 @@ function Pathways(props) {
             computer science courses currently offered at Westhill High School.
           </p>
           <div className="image_container">
-            <img src={pathways} alt="pathways" width="600" />
+            <img className="responsive_image" src={pathways} alt="pathways" />
           </div>
+
           <p>
             A pathway consists of a sequence of courses designed to allow a
             student to build a certain set of skills. The Computer Science
@@ -70,38 +72,13 @@ function Pathways(props) {
             gentler introduction to programming.
           </p>
           <div className="image_container">
-            <img src={starter} alt="starter" width="600" />
+            <img
+              className="responsive_image_small"
+              src={starter}
+              alt="starter"
+              width="600"
+            />
           </div>
-        </Section>
-
-        <Section title="Prerequisites for CSAW Courses">
-          <p>
-            The boxes below show all the courses in CSAW and what prerequisites
-            are required. A chart comparing all the courses to each other can be
-            found <a href="./CoursePages">here</a>.
-          </p>
-          <PrereqDeck />
-          <p>
-            <b>
-              <u>Note 1</u>:{" "}
-            </b>
-            Before taking <b>AP CSA</b>, students must complete at least one
-            other CS course listed here or take a{" "}
-            <a href="#">
-              <i>placement exam</i>
-            </a>
-            . Sophomores are encouraged to take <b>Cyber Security</b> before{" "}
-            <b>AP CSA</b>.
-          </p>
-          <p>
-            <b>
-              <u>Note 2</u>:{" "}
-            </b>
-            There is no prerequisite for <b>CP Cyber Security</b>. Before taking{" "}
-            <b>Honors Cyber Security,</b> students must complete either{" "}
-            <b>AP CSP</b> or <b>Python A</b> and <b>Python B</b> and have taken
-            (or concurrently be taking) Honors Algebra 2
-          </p>
         </Section>
         <Section title="Which AP Course to Take">
           <p>
@@ -109,22 +86,32 @@ function Pathways(props) {
             Westhill, this section will help you decide between AP Computer
             Science Principles and AP Computer Science A.
           </p>
-          <div className="flex_container">
-            <div className="image_container">
-              <img src={venn} alt="award" width="600" />
-              <h4>AP CSP vs. AP CSA</h4>
-            </div>
-            <div className="video_container">
-              <Video
-                src="C8e19APClpc"
-                width="450"
-                caption="Choosing Between AP CSP and AP CSA"
-              ></Video>
-            </div>
-            <div className="image_container">
-              <img src={comparison} alt="award" width="600" />
-              <h4>Comparing AP CSP with AP CSA</h4>
-            </div>
+
+          <div className="image_container">
+            <img
+              className="responsive_image_small"
+              src={venn}
+              alt="venn"
+              width="600"
+            />
+            <h4>AP CSP vs. AP CSA</h4>
+          </div>
+          <div className="video_container">
+            <Video
+              src="C8e19APClpc"
+              width="450"
+              caption="Choosing Between AP CSP and AP CSA"
+            ></Video>
+          </div>
+        </Section>
+        <Section>
+          <div className="image_container">
+            <img
+              className="responsive_image_small"
+              src={comparison}
+              alt="comparison"
+            />
+            <h4>Comparing AP CSP with AP CSA</h4>
           </div>
         </Section>
         <Section title="How Hard are AP Computer Science Exams">
@@ -144,7 +131,12 @@ function Pathways(props) {
             offered at Westhill.
           </p>
           <div className="image_container">
-            <img src={difficulty} alt="difficulty" width="700" />
+            <img
+              className="responsive_image_small"
+              src={difficulty}
+              alt="difficulty"
+              width="700"
+            />
           </div>
         </Section>
 
