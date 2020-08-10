@@ -7,7 +7,7 @@
   padding: 0;
   background: var(--sidebar_background_color);
   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
-  top: 90px;
+  top: var(--headerHeight);
   left: 0;
   width: var(--sideBarWidth);
   overflow-x: hidden;

@@ -40,7 +40,6 @@ function Robotics(props) {
             designing, building, programming, and problem solving using higher
             order critical thinking skills.
           </p>
-          <br />
           <p>
             This is a full year course during which students spend lots of time
             brainstorming and developing robots according to First Tech
@@ -49,7 +48,6 @@ function Robotics(props) {
             Students use a 3D-printer to print the robot's components. Students
             can use C or OnBot Java to program their robots.
           </p>
-          <br />
           <p>
             Overall, students spend a minimum of 70% of class time conducting
             activities relating to building a robot. Most of these activities
@@ -61,7 +59,6 @@ function Robotics(props) {
             data analysis error analysis, how to reach and justify conclusions,
             and how to redesign an experiment based on their results.
           </p>
-          <br />
           <p>
             Students are required to record all their observations, data, data
             analysis and conclusions in a journal.
