@@ -86,14 +86,17 @@ function SummerAssignments(props) {
                   school Google account, you may use your personal account.
                   However, at the beginning of the school year, you may have to
                   transfer your work to your school account.) Next, go to
-                  Westhill's AP CSA on-line course. Register for this course by
-                  pressing the REGISTRATION button. Enter your name where
-                  indicated.{" "}
+                  Westhill's{" "}
+                  <a href="https://csab373.appspot.com/apcsa/course">
+                    AP CSA on-line lab workbook
+                  </a>
+                  . Register for this resource by pressing the REGISTRATION
+                  button. Enter your name where indicated.{" "}
                 </p>
                 <p>
                   Once registered, you should have access to the on-line
                   materials. Your summer assignments consist of you completing
-                  Units 1,2, 3 and 4 of this on-line course. The approximate
+                  Units 1,2, 3 and 4 of this on-line workbook. The approximate
                   completion time for Unit 1 is 1 hour, for Unit 2 is 2 hours
                   and for Unit 3 is 10-15 hours. For Unit 4 it is 1 hour.
                 </p>
