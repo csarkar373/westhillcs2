@@ -49,13 +49,33 @@ function SummerAssignments(props) {
                     email Mr. Sarkar to discuss; please do not simply give up).
                   </li>
                   <ol>
-                    <li>2D-Array Pattern Generation Lab </li>
+                    <li>
+                      2D-Array Pattern Generation Lab. The activity guide is{" "}
+                      <a href="https://drive.google.com/drive/folders/1BtB3S5P4gkVGPaw63TumYZtqIH1YKkZF?usp=sharing">
+                        here
+                      </a>{" "}
+                      and the starter files are{" "}
+                      <a href=" https://drive.google.com/drive/u/1/folders/1_dOEFnD9j5iLkcgDJZn4Iv6TzFug8TXB">
+                        here.
+                      </a>
+                      <p>
+                        You can find the activity guide for the 2D lab{" "}
+                        <a href="https://drive.google.com/drive/folders/1BtB3S5P4gkVGPaw63TumYZtqIH1YKkZF?usp=sharing">
+                          here
+                        </a>{" "}
+                        and the starter files{" "}
+                        <a href=" https://drive.google.com/drive/u/1/folders/1_dOEFnD9j5iLkcgDJZn4Iv6TzFug8TXB">
+                          here).
+                        </a>
+                      </p>
+                    </li>
                     <li>Recursion Practice (Coding Bat)</li>
                     <li>Polymorphism: Complex Numbers</li>
                     <li>Constructors: Vehicle Lab </li>
                     <li>ArrayList: Playing Card Lab</li>
-                    <li>Static: Louie's Lemons</li>
+                    <li>Static Variables: Louie's Lemons</li>
                   </ol>
+
                   <li>
                     You must download and setup JetBrain's IntelliJ IDEA on your
                     home computer and become familiar with this fantastic IDE.
@@ -63,10 +83,13 @@ function SummerAssignments(props) {
                     program to verify that everything installed properly.
                   </li>
                   <li>
-                    Take the two-and-a-half hour IntelliJ course on youtube.
-                    Please follow along as you watch. Try not to watch for more
-                    than 30 minutes at a time. It is much better to break it
-                    into small chunks.
+                    Take the two-and-a-half hour{" "}
+                    <a href="https://www.youtube.com/watch?v=yefmcX57Eyg">
+                      IntelliJ course
+                    </a>{" "}
+                    on youtube. Please follow along as you watch. Try not to
+                    watch for more than 30 minutes at a time. It is much better
+                    to break it into small chunks.
                   </li>
                 </bl>
               </div>
