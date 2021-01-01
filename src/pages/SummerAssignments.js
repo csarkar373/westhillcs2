@@ -98,53 +98,19 @@ function SummerAssignments(props) {
                 <img src={arrow} className="arrow" alt="arrow" />
                 <label for="ds">AP Computer Science A</label>
                 <p>
-                  Your summer assignment can be found by registering for Mr.
-                  Sarkar's AP Computer Science A class on the Internet. Here are
-                  your instructions for doing this:
+                  Your summer assignment is to create a free account for
+                  yourself on code.org and then to complete at least 85% of the
+                  "CS Fundamentals: Express Course" on this site. You can you
+                  either your school or your personal gmail account to create
+                  your code.org account. The estimated time required to finish
+                  this assignment is 20 hours. It is best to do a few hours each
+                  week instead of marathon sessions near the end of the summer.
                 </p>
                 <p>
-                  You must first log into your school Google account, the one
-                  that begins with your Westhill ID and ends with
-                  stamfordpublicschools.org. (If you do not have access to your
-                  school Google account, you may use your personal account.
-                  However, at the beginning of the school year, you may have to
-                  transfer your work to your school account.) Next, go to
-                  Westhill's{" "}
-                  <a href="https://csab373.appspot.com/apcsa/course">
-                    AP CSA on-line lab workbook
-                  </a>
-                  . Register for this resource by pressing the REGISTRATION
-                  button. Enter your name where indicated.{" "}
-                </p>
-                <p>
-                  Once registered, you should have access to the on-line
-                  materials. Your summer assignments consist of you completing
-                  Units 1,2, 3 and 4 of this on-line workbook. The approximate
-                  completion time for Unit 1 is 1 hour, for Unit 2 is 2 hours
-                  and for Unit 3 is 10-15 hours. For Unit 4 it is 1 hour.
-                </p>
-                <p>
-                  Unit 1 will show you how to install Java and BlueJ on your
-                  home PC as well as how to sign up for some free on-line tools
-                  we will be using throughout the course.
-                </p>
-                <p>
-                  Unit 2 will give you some lessons on how to convert between
-                  decimal, binary and hexadecimal numbers. Everyone must
-                  complete Unit 1. If you have taken AP CSP previously, you have
-                  already completed Unit 2. Unit 3 will introduce you to
-                  computer programming using simple blocks. This Unit requires
-                  you to create a login on code.org and complete the
-                  "Accelerated Course" on their website. Please use your
-                  personal gmail address when creating your login on code.org.
-                </p>
-
-                <p>
-                  Unit 4 will teach you a little bit about computer hardware.
-                  After school begins, we will have an exam on the material
-                  presented in Unit 2, to verify that you have completed your
-                  summer assignment on binary and hexadecimal number systems.
-                  Thus, there is nothing for you to submit from the summer work.
+                  If you get stuck on a problem, simply move on as you are not
+                  required to complete every single problem. However, if you
+                  want help in deciphering a problem, you can email Mr. Sarkar
+                  at csarkar@stamfordCT.gov over the summer at any time.
                 </p>
               </div>
             </div>

@@ -65,7 +65,7 @@ function CourseDeck() {
       <Card
         pic={csab}
         link="./CSAB"
-        title="CS AB"
+        title="Data Structures"
         cardItem={[
           tbIcon,
           "https://csab373.appspot.com/first/course",
