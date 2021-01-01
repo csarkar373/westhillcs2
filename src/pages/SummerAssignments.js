@@ -102,9 +102,19 @@ function SummerAssignments(props) {
                   yourself on code.org and then to complete at least 85% of the
                   "CS Fundamentals: Express Course" on this site. You can you
                   either your school or your personal gmail account to create
-                  your code.org account. The estimated time required to finish
-                  this assignment is 20 hours. It is best to do a few hours each
-                  week instead of marathon sessions near the end of the summer.
+                  your code.org account.
+                </p>
+                <p>
+                  Note that you must be logged in while completing the problems
+                  in order to receive credit. At the beginning of the school
+                  year your instructor will check to see how much of this course
+                  you have completed. The result will form a large portion of
+                  your homework grade for Q1.
+                </p>
+                <p>
+                  The estimated time required to finish this assignment is 20
+                  hours. It is best to do a few hours each week instead of
+                  marathon sessions near the end of the summer.
                 </p>
                 <p>
                   If you get stuck on a problem, simply move on as you are not
